@@ -1,5 +1,5 @@
 import os
-import requests
+from curl_cffi import requests
 import pyperclip
 import traceback
 import sys
@@ -46,6 +46,17 @@ def get_app_info_from_coolapk_market(pkg_name):
     else:
         return ''
 
+# Get app info from tencent market
+def get_app_info_from_tencent_market(pkg_name):
+    remote_url = f'https://sj.qq.com/appdetail/{pkg_name}'
+    response = requests.get(remote_url)
+    app_info = re.search(r'h1 title[^"]*"([^"]*)', response.text, flags=re.M|re.I)
+
+    if app_info:
+        return app_info.group(1).strip()
+    else:
+        return ''
+
 # Get app info from apkpure market
 def get_app_info_from_apkpure_market(pkg_name):
     remote_url = f'https://apkpure.com/cn/{pkg_name}'
@@ -67,7 +78,6 @@ def get_app_info_from_apkpure_market(pkg_name):
 def get_app_info_from_google_play(pkg_name):
     remote_url = f'https://play.google.com/store/apps/details?id={pkg_name}'
     response = requests.get(remote_url, proxies=({'https': proxy}))
-    print(response)
     app_info = re.search(r'main-title[^>]*>([^<]*)', response.text, flags=re.M|re.I)
 
     if app_info:
@@ -75,14 +85,25 @@ def get_app_info_from_google_play(pkg_name):
     else:
         return ''
 
-# Get app info from tencent market
-def get_app_info_from_tencent_market(pkg_name):
-    remote_url = f'https://sj.qq.com/appdetail/{pkg_name}'
-    response = requests.get(remote_url)
-    app_info = re.search(r'h1 title[^"]*"([^"]*)', response.text, flags=re.M|re.I)
+# Get app info from samsung galaxy market
+def get_app_info_from_galaxy_market(pkg_name):
+    remote_url = f'https://galaxystore.samsung.com/detail/{pkg_name}'
+    response = requests.get(remote_url, proxies=({'https': proxy}))
+    app_info = re.search(r'<title>([^<]*)', response.text, flags=re.M|re.I)
 
     if app_info:
-        return app_info.group(1).strip()
+        return app_info.group(1).strip().split('-')[0].strip()
+    else:
+        return ''
+
+# Get app info from APKsHub market
+def get_app_info_from_apkshub_market(pkg_name):
+    remote_url = f'https://www.apkshub.com/app/{pkg_name}'
+    response = requests.get(remote_url, proxies=({'https': proxy}))
+    app_info = re.search(r'App Name</span><span>([^<]*)', response.text, flags=re.M|re.I)
+
+    if app_info:
+        return app_info.group(1).strip().split('-')[0].strip()
     else:
         return ''
 
@@ -99,6 +120,10 @@ def get_app_info_from_markets(pkg_name):
         software_name = get_app_info_from_xiaomi_market(pkg_name)
     if not software_name:
         software_name = get_app_info_from_google_play(pkg_name)
+    if not software_name:
+        software_name = get_app_info_from_galaxy_market(pkg_name)
+    if not software_name:
+        software_name = get_app_info_from_apkshub_market(pkg_name)
     # 403 blocked
     # if not software_name:
     #     software_name = get_app_info_from_apkpure_market(pkg_name)
