@@ -5,11 +5,12 @@ from openpyxl import load_workbook
 
 extra_cmd_path = 'extra-cmd.bat'
 
-words = [ '红包', '权限', '兴趣', '更新', '输入法', '出现菜单' ]
+words = [ '红包', '权限', '兴趣', '更新', '输入法', '签到', '菜单', '二次弹窗', '屏蔽原因' ]
 
 # update 3rdparty rules
 os.system(r'curl -o 3rdparty/AIsouler_gkd.json -L https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5')
 os.system(r'curl -o 3rdparty/Adpro_gkd.json -L https://registry.npmmirror.com/@adpro/gkd_subscription/latest/files/dist/Adpro_gkd.json5')
+os.system(r'del extra-cmd.bat')
 
 # load pkg defs
 strip_list = [ ]
@@ -53,7 +54,7 @@ for filename in os.listdir('3rdparty'):
             with open(output_path, 'w', encoding='utf-8') as norm_file:
                 json.dump(rule, norm_file, indent=4, ensure_ascii=False)
 
-            with open(extra_cmd_path, 'w', encoding='utf-8') as extra_file:
+            with open(extra_cmd_path, 'a', encoding='utf-8') as extra_file:
                 for app in rule['apps']:
                     if app['id'] in allow_list:
                         continue
