@@ -1,7 +1,7 @@
 {
     "id": 513,
     "name": "GKD by Leo",
-    "version": 2,
+    "version": 3,
     "author": "Leo",
     "categories": [
         {
@@ -375,6 +375,11 @@
                             "key": 1,
                             "fastQuery": true,
                             "matches": "Button[text^=\"查看原视频\"][clickable=true]"
+                        },
+                        {
+                            "key": 2,
+                            "excludeMatches": "Button[text^=\"查看原视频\"][clickable=true]",
+                            "matches": "ImageView[desc^=\"播放\"][clickable=true][visibleToUser=true]"
                         },
                     ],
                     "enable": true
