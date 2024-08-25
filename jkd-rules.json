@@ -1,7 +1,7 @@
 {
     "id": 513,
     "name": "GKD by Leo",
-    "version": 1,
+    "version": 2,
     "author": "Leo",
     "categories": [
         {
@@ -378,6 +378,279 @@
                         },
                     ],
                     "enable": true
+                }
+            ]
+        },
+        {
+            "id": "tv.danmaku.bili",
+            "name": "哔哩哔哩",
+            "groups": [
+                {
+                    "key": -1,
+                    "name": "开屏广告",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "rules": [
+                        {
+                            "matches": "[vid=\"count_down\" || vid=\"skip\"][visibleToUser=true]",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/16187624",
+                                "https://i.gkd.li/i/16484445"
+                            ]
+                        }
+                    ],
+                    "order": -10
+                },
+                {
+                    "key": 1,
+                    "name": "青少年模式",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "rules": "TextView[text*=\"青少年模式\"] +n TextView[text=\"我知道了\"]",
+                    "snapshotUrls": "https://i.gkd.li/i/13746766",
+                    "enable": false
+                }
+            ]
+        },
+        {
+            "id": "com.douban.frodo",
+            "name": "豆瓣",
+            "groups": [
+                {
+                    "key": -1,
+                    "name": "开屏广告",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "actionMaximumKey": 0,
+                    "rules": [
+                        {
+                            "key": 0,
+                            "matches": "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
+                            "snapshotUrls": "https://i.gkd.li/i/15981630"
+                        },
+                        {
+                            "key": 1,
+                            "position": {
+                                "left": "width * 0.8833",
+                                "top": "width * 0.1388"
+                            },
+                            "excludeMatches": "[id=\"com.douban.frodo:id/_ad_image_\"][width=1200]",
+                            "matches": "[id=\"com.douban.frodo:id/_ad_image_\"]",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/13575257",
+                                "https://i.gkd.li/i/13575547"
+                            ]
+                        },
+                        {
+                            "key": 2,
+                            "position": {
+                                "left": "width * 0.8666",
+                                "top": "width * 0.1625"
+                            },
+                            "matches": "[id=\"com.douban.frodo:id/_ad_image_\"][width=1200]",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/13601755",
+                                "https://i.gkd.li/i/16054268"
+                            ]
+                        }
+                    ],
+                    "order": -10
+                }
+            ]
+        },
+        {
+            "id": "com.autonavi.minimap",
+            "name": "高德地图",
+            "groups": [
+                {
+                    "key": -1,
+                    "name": "开屏广告",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "rules": [
+                        {
+                            "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
+                            "exampleUrls": "https://e.gkd.li/983cc392-1b01-4172-bc1d-2df001baeb3d",
+                            "snapshotUrls": "https://i.gkd.li/i/16490985"
+                        }
+                    ],
+                    "order": -10
+                }
+            ]
+        },
+        {
+            "id": "com.jingdong.app.mall",
+            "name": "京东",
+            "groups": [
+                {
+                    "key": 0,
+                    "name": "开屏广告",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "rules": [
+                        {
+                            "excludeActivityIds": "com.jd.lib.search.view.Activity.SearchActivity",
+                            "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/16323111",
+                                "https://i.gkd.li/i/16323115"
+                            ]
+                        }
+                    ],
+                    "order": -10
+                }
+            ]
+        },
+        {
+            "id": "com.coolapk.market",
+            "name": "酷安",
+            "groups": [
+                {
+                    "key": -1,
+                    "name": "开屏广告",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "actionMaximumKey": 0,
+                    "excludeActivityIds": [
+                        "com.coolapk.market.view.search.",
+                        "com.coolapk.market.view.feed."
+                    ],
+                    "rules": [
+                        {
+                            "key": 0,
+                            "matches": "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/12503773",
+                                "https://i.gkd.li/i/13247610",
+                                "https://i.gkd.li/i/13264779",
+                                "https://i.gkd.li/i/13826359",
+                                "https://i.gkd.li/i/13827095"
+                            ]
+                        },
+                        {
+                            "key": 1,
+                            "matches": "[text^=\"跳过\"][text.length<=4]",
+                            "excludeMatches": "[id=\"com.coolapk.market:id/item_view\"]",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/12917990",
+                                "https://i.gkd.li/i/13211392",
+                                "https://i.gkd.li/i/13247733",
+                                "https://i.gkd.li/i/13247782",
+                                "https://i.gkd.li/i/13296816"
+                            ]
+                        }
+                    ],
+                    "order": -10
+                }
+            ]
+        },
+        {
+            "id": "com.fan.app",
+            "name": "十六番旅行",
+            "groups": [
+                {
+                    "key": 0,
+                    "name": "开屏广告",
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "rules": [
+                        {
+                            "fastQuery": true,
+                            "matches": "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
+                            "exampleUrls": "https://m.gkd.li/57941037/470c6262-62ca-45c5-908c-8435d7b0e86f",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/14596657",
+                                "https://i.gkd.li/i/13258011"
+                            ]
+                        }
+                    ],
+                    "order": -10
+                }
+            ]
+        },
+        {
+            "id": "com.tencent.qqlive",
+            "name": "腾讯视频",
+            "groups": [
+                {
+                    "key": 0,
+                    "name": "开屏广告",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "rules": [
+                        {
+                            "key": 0,
+                            "action": "clickCenter",
+                            "matches": "TextView[text*=\"跳过\"][text.length<=10]",
+                            "snapshotUrls": "https://i.gkd.li/i/14049316"
+                        }
+                    ],
+                    "order": -10
+                }
+            ]
+        },
+        {
+            "id": "com.netease.cloudmusic",
+            "name": "网易云音乐",
+            "groups": [
+                {
+                    "key": 0,
+                    "name": "开屏广告",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "rules": [
+                        {
+                            "key": 0,
+                            "excludeActivityIds": "com.netease.cloudmusic.music.biz.setting.activity.SettingActivity",
+                            "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/15092772",
+                                "https://i.gkd.li/i/15092814"
+                            ]
+                        }
+                    ],
+                    "order": -10
+                }
+            ]
+        },
+        {
+            "id": "com.android.bankabc",
+            "name": "中国农业银行",
+            "groups": [
+                {
+                    "key": 1,
+                    "name": "开屏广告",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "actionMaximum": 1,
+                    "resetMatch": "app",
+                    "actionMaximumKey": 0,
+                    "rules": [
+                        {
+                            "key": 0,
+                            "matches": "[id=\"com.android.bankabc:id/close\"]",
+                            "exampleUrls": "https://m.gkd.li/57941037/67cfc2f8-a108-4382-976a-0da7d13764e9",
+                            "snapshotUrls": "https://i.gkd.li/i/14179162"
+                        }
+                    ],
+                    "order": -10
                 }
             ]
         }
