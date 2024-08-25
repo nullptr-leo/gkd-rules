@@ -1,9 +1,10 @@
 import os
-from curl_cffi import requests
 import pyperclip
-import traceback
-import sys
 import re
+import sys
+import traceback
+
+from curl_cffi import requests
 from openpyxl import load_workbook
 
 # The XLSX to save local package info
