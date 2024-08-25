@@ -130,34 +130,43 @@ def get_app_info_from_fdroid_market(pkg_name):
     else:
         return ''
 
+# Check if the package name is not valid
+def is_pkg_name_valid(software_name):
+    if not software_name:
+        return False
+    elif '404 Page Not Found' in software_name:
+        return False
+    else:
+        return True
+
 # Get app info from markets
 def get_app_info_from_markets(pkg_name):
     software_name = ''
 
     # Get app info from markets one by one
-    if not software_name:
+    if not is_pkg_name_valid(software_name):
         software_name = get_app_info_from_tencent_market(pkg_name)
-    if not software_name:
+    if not is_pkg_name_valid(software_name):
         software_name = get_app_info_from_coolapk_market(pkg_name)
-    if not software_name:
+    if not is_pkg_name_valid(software_name):
         software_name = get_app_info_from_xiaomi_market(pkg_name)
-    if not software_name:
-        software_name = get_app_info_from_google_play(pkg_name)
-    if not software_name:
-        software_name = get_app_info_from_galaxy_market(pkg_name)
-    if not software_name:
-        software_name = get_app_info_from_apkshub_market(pkg_name)
-    if not software_name:
-        software_name = get_app_info_from_fdroid_market(pkg_name)
+    # if not is_pkg_name_valid(software_name):
+    #     software_name = get_app_info_from_google_play(pkg_name)
+    # if not is_pkg_name_valid(software_name):
+    #     software_name = get_app_info_from_galaxy_market(pkg_name)
+    # if not is_pkg_name_valid(software_name):
+    #     software_name = get_app_info_from_apkshub_market(pkg_name)
+    # if not is_pkg_name_valid(software_name):
+    #     software_name = get_app_info_from_fdroid_market(pkg_name)
     # Blocked
-    # if not software_name:
+    # if not is_pkg_name_valid(software_name):
     #     software_name = get_app_info_from_apkcombo_market(pkg_name)
     # 403 blocked
-    # if not software_name:
+    # if not is_pkg_name_valid(software_name):
     #     software_name = get_app_info_from_apkpure_market(pkg_name)
 
     # Not found finally
-    if not software_name:
+    if not is_pkg_name_valid(software_name):
         software_name = '?'
     else:
         pyperclip.copy(software_name)
