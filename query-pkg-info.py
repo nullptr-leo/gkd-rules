@@ -82,7 +82,7 @@ def get_app_info_from_google_play(pkg_name):
     app_info = re.search(r'main-title[^>]*>([^<]*)', response.text, flags=re.M|re.I)
 
     if app_info:
-        return app_info.group(1).strip()
+        return app_info.group(1).strip().split('-')[0].strip()
     else:
         return ''
 
@@ -108,6 +108,28 @@ def get_app_info_from_apkshub_market(pkg_name):
     else:
         return ''
 
+# Get app info from APKCombo market
+def get_app_info_from_apkcombo_market(pkg_name):
+    remote_url = f'https://apkcombo.com/{pkg_name}'
+    response = requests.get(remote_url, headers=headers, proxies=({'https': proxy}))
+    app_info = re.search(r'<p><span>([^<]*)', response.text, flags=re.M|re.I)
+
+    if app_info:
+        return app_info.group(1).strip().split('-')[0].strip()
+    else:
+        return ''
+
+# Get app info from F-Droid market
+def get_app_info_from_fdroid_market(pkg_name):
+    remote_url = f'https://f-droid.org/packages/{pkg_name}'
+    response = requests.get(remote_url, proxies=({'https': proxy}))
+    app_info = re.search(r'<title>([^<]*)', response.text, flags=re.M|re.I)
+
+    if app_info:
+        return app_info.group(1).strip().split('|')[0].strip()
+    else:
+        return ''
+
 # Get app info from markets
 def get_app_info_from_markets(pkg_name):
     software_name = ''
@@ -125,6 +147,11 @@ def get_app_info_from_markets(pkg_name):
         software_name = get_app_info_from_galaxy_market(pkg_name)
     if not software_name:
         software_name = get_app_info_from_apkshub_market(pkg_name)
+    if not software_name:
+        software_name = get_app_info_from_fdroid_market(pkg_name)
+    # Blocked
+    # if not software_name:
+    #     software_name = get_app_info_from_apkcombo_market(pkg_name)
     # 403 blocked
     # if not software_name:
     #     software_name = get_app_info_from_apkpure_market(pkg_name)
