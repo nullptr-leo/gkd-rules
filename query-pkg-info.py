@@ -63,6 +63,18 @@ def get_app_info_from_apkpure_market(pkg_name):
     else:
         return ''
 
+# Get app info from google play market
+def get_app_info_from_google_play(pkg_name):
+    remote_url = f'https://play.google.com/store/apps/details?id={pkg_name}'
+    response = requests.get(remote_url, proxies=({'https': proxy}))
+    print(response)
+    app_info = re.search(r'main-title[^>]*>([^<]*)', response.text, flags=re.M|re.I)
+
+    if app_info:
+        return app_info.group(1).strip()
+    else:
+        return ''
+
 # Get app info from tencent market
 def get_app_info_from_tencent_market(pkg_name):
     remote_url = f'https://sj.qq.com/appdetail/{pkg_name}'
@@ -85,6 +97,8 @@ def get_app_info_from_markets(pkg_name):
         software_name = get_app_info_from_coolapk_market(pkg_name)
     if not software_name:
         software_name = get_app_info_from_xiaomi_market(pkg_name)
+    if not software_name:
+        software_name = get_app_info_from_google_play(pkg_name)
     # 403 blocked
     # if not software_name:
     #     software_name = get_app_info_from_apkpure_market(pkg_name)
