@@ -1,7 +1,7 @@
 {
     "id": 513,
     "name": "GKD by Leo",
-    "version": 6,
+    "version": 7,
     "author": "Leo",
     "categories": [
         {
@@ -301,9 +301,9 @@
             "name": "微信",
             "groups": [
                 {
-                    "key": 9,
-                    "name": "功能类-自动查看原图",
-                    "desc": "自动点击底部左侧[查看原图]按钮",
+                    "key": 0,
+                    "name": "功能类-自动查看原图/原视频",
+                    "desc": "自动点击底部左侧[查看原图][查看原视频]按钮",
                     "activityIds": "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
                     "rules": [
                         {
@@ -316,15 +316,24 @@
                             "key": 1,
                             "fastQuery": true,
                             "matches": "Button[text^=\"查看原视频\"][clickable=true]"
-                        },
+                        }
+                    ],
+                    "enable": true
+                },
+                {
+                    "key": 1,
+                    "name": "功能类-自动播放视频",
+                    "desc": "在无[查看原视频]按钮时自动播放视频",
+                    "activityIds": "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
+                    "rules": [
                         {
-                            "key": 2,
+                            "key": 0,
                             "fastQuery": true,
                             "excludeMatches": "Button[text^=\"查看原视频\"][clickable=true]",
                             "matches": "ImageView[desc^=\"播放\"][clickable=true][visibleToUser=true]",
-                            "matchDelay": 500
                         }
                     ],
+                    "matchDelay": 500,
                     "enable": true
                 }
             ]
