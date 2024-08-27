@@ -1,7 +1,7 @@
 {
     "id": 666,
     "name": "AIsouler的GKD订阅",
-    "version": 124,
+    "version": 125,
     "author": "AIsouler",
     "categories": [
         {
@@ -75,7 +75,10 @@
                         "[text*=\"搜索\"][text.length<6][visibleToUser=true]",
                         "[(text*=\"搜索\" && text.length<6) || vid~=\"(?is).*search.*\" || (desc*=\"搜索\" && desc.length<6)][visibleToUser=true]"
                     ],
-                    "matches": "[childCount=0][visibleToUser=true][((text*=\"跳过\" || text*=\"跳過\" || text~=\"(?is).*skip.*\") && text.length<10) || ((desc*=\"跳过\" || desc*=\"跳過\" || desc~=\"(?is).*skip.*\") && desc.length<10) || id~=\"(?is).*tt_splash_skip_btn\" || vid~=\"(?is).*skip.*\" || (vid~=\"(?is).*count.*\" && vid~=\"(?is).*down.*\" && vid!~=\"(?is).*load.*\" && vid!~=\"(?is).*time.*\" && vid!~=\"(?is).*hour.*\" && vid!~=\"(?is).*minute.*\" && vid!~=\"(?is).*second.*\" && vid!~=\"(?is).*add.*\" && vid!~=\"(?is).*ead.*\" && text!~=\"([01]?[0-9]|2[0-3])[:：][0-5][0-9]\")]"
+                    "matches": "[childCount=0][visibleToUser=true][((text*=\"跳过\" || text*=\"跳過\" || text~=\"(?is).*skip.*\") && text.length<10) || ((desc*=\"跳过\" || desc*=\"跳過\" || desc~=\"(?is).*skip.*\") && desc.length<10) || id~=\"(?is).*tt_splash_skip_btn\" || vid~=\"(?is).*skip.*\" || (vid~=\"(?is).*count.*\" && vid~=\"(?is).*down.*\" && vid!~=\"(?is).*load.*\" && vid!~=\"(?is).*time.*\" && vid!~=\"(?is).*hour.*\" && vid!~=\"(?is).*minute.*\" && vid!~=\"(?is).*second.*\" && vid!~=\"(?is).*timing.*\" && vid!~=\"(?is).*add.*\" && vid!~=\"(?is).*ead.*\" && text!~=\"([01]?[0-9]|2[0-3])[:：][0-5][0-9]\")]",
+                    "snapshotUrls": [
+                        "https://i.gkd.li/i/16742932"
+                    ]
                 },
                 {
                     "key": 2,
@@ -960,10 +963,16 @@
                     "rules": [
                         {
                             "key": 0,
-                            "activityIds": "com.tencent.mobileqq.activity.SplashActivity",
                             "fastQuery": true,
+                            "activityIds": [
+                                "com.tencent.mobileqq.activity.SplashActivity",
+                                "cooperation.qwallet.plugin.QWalletToolFragmentActivity"
+                            ],
                             "matches": "ViewGroup[childCount=6] > [text=\"广告\"]",
-                            "snapshotUrls": "https://i.gkd.li/i/13695087"
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/13695087",
+                                "https://i.gkd.li/i/16685300"
+                            ]
                         },
                         {
                             "key": 1,
@@ -977,8 +986,8 @@
                                 1
                             ],
                             "key": 2,
-                            "activityIds": "cooperation.qwallet.plugin.QWalletToolFragmentActivity",
                             "fastQuery": true,
+                            "activityIds": "cooperation.qwallet.plugin.QWalletToolFragmentActivity",
                             "matches": "@LinearLayout > [text=\"关闭此条广告\"]",
                             "snapshotUrls": "https://i.gkd.li/i/13699701"
                         }
@@ -1210,6 +1219,27 @@
                                 "https://i.gkd.li/i/15388608",
                                 "https://i.gkd.li/i/16154341"
                             ]
+                        }
+                    ],
+                    "enable": false
+                }
+            ]
+        },
+        {
+            "id": "com.tradingview.tradingviewapp",
+            "name": "TradingView",
+            "groups": [
+                {
+                    "key": 1,
+                    "name": "局部广告-卡片广告",
+                    "desc": "点击关闭",
+                    "rules": [
+                        {
+                            "fastQuery": true,
+                            "activityIds": "com.tradingview.tradingviewapp.root.view.RootActivity",
+                            "matches": "@[clickable=true][text=\"关闭广告\"] <<n [vid=\"chart_wbv\"]",
+                            "exampleUrls": "https://e.gkd.li/3798ab1b-2cd3-471e-8303-b8124746e9d8",
+                            "snapshotUrls": "https://i.gkd.li/i/16725697"
                         }
                     ],
                     "enable": false
@@ -6532,6 +6562,33 @@
                         {
                             "matches": "@[id=\"com.greenpoint.android.mc10086.activity:id/close_img\"][desc=\"关闭\"] - RelativeLayout >(2) [text$=\"好评\"]",
                             "snapshotUrls": "https://i.gkd.li/i/12662345"
+                        }
+                    ],
+                    "enable": false
+                }
+            ]
+        },
+        {
+            "id": "com.custom.zktimehelp",
+            "name": "ZK助手",
+            "groups": [
+                {
+                    "key": 1,
+                    "name": "全屏广告",
+                    "rules": [
+                        {
+                            "key": 0,
+                            "activityIds": "com.custom.zktimehelp.ui.MainActivity",
+                            "matches": "[id=\"android:id/content\"] >(3,4) FrameLayout[childCount>3] > FrameLayout[childCount=1] > ImageView[childCount=0][text=null]",
+                            "exampleUrls": "https://e.gkd.li/95f17fff-486c-4cad-83c7-804b808ff800",
+                            "snapshotUrls": "https://i.gkd.li/i/16670372"
+                        },
+                        {
+                            "key": 1,
+                            "activityIds": "com.qq.e.ads.PortraitADActivity",
+                            "matches": "FrameLayout[childCount=5] > FrameLayout[childCount=2] > FrameLayout[childCount=2] >2 @FrameLayout[childCount=1] > ImageView[childCount=0]",
+                            "exampleUrls": "https://e.gkd.li/cacb889d-0328-4431-af23-d267fa4eb626",
+                            "snapshotUrls": "https://i.gkd.li/i/16670426"
                         }
                     ],
                     "enable": false
