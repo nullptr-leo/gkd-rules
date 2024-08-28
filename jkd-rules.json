@@ -1,7 +1,7 @@
 {
     "id": 513,
     "name": "GKD by Leo",
-    "version": 10,
+    "version": 11,
     "author": "Leo",
     "categories": [
         {
@@ -303,7 +303,7 @@
                 {
                     "key": 0,
                     "name": "功能类-自动查看原图/原视频",
-                    "desc": "自动点击底部左侧[查看原图][查看原视频]按钮",
+                    "desc": "自动点击[查看原图]按钮",
                     "activityIds": "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
                     "rules": [
                         {
@@ -316,11 +316,21 @@
                             "key": 1,
                             "fastQuery": true,
                             "matches": "Button[text^=\"查看原视频\"][clickable=true]"
-                        },
+                        }
+                    ],
+                    "enable": true
+                },
+                {
+                    "key": 1,
+                    "name": "功能类-自动播放视频",
+                    "desc": "自动点击[视频播放]按钮",
+                    "activityIds": "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
+                    "rules": [
                         {
-                            "key": 2,
+                            "key": 0,
                             "matches": "ImageView[desc^=\"播放\"][clickable=true] <<2 FrameLayout[index=1]",
-                            "excludeMatches": "Button[text^=\"查看原视频\"][clickable=true]"
+                            "excludeMatches": "Button[text^=\"查看原视频\"][clickable=true]",
+                            "actionMaximum": 1
                         }
                     ],
                     "enable": true
