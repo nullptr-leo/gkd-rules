@@ -1,7 +1,7 @@
 {
     "id": 513,
     "name": "GKD by Leo",
-    "version": 14,
+    "version": 15,
     "author": "Leo",
     "categories": [
         {
@@ -308,12 +308,14 @@
                     "rules": [
                         {
                             "key": 0,
+                            "matchDelay": 200,
                             "fastQuery": true,
                             "matches": "Button[text^=\"查看原图\"][clickable=true]",
                             "snapshotUrls": "https://i.gkd.li/i/13523031"
                         },
                         {
                             "key": 1,
+                            "matchDelay": 200,
                             "fastQuery": true,
                             "matches": "Button[text^=\"查看原视频\"][clickable=true]"
                         }
@@ -328,6 +330,7 @@
                     "rules": [
                         {
                             "key": 0,
+                            "matchDelay": 300,
                             "matches": "FrameLayout[index=1] > RelativeLayout > ImageView[desc^=\"播放\"][clickable=true]",
                             "excludeMatches": "Button[text^=\"查看原视频\"][clickable=true]"
                         }
