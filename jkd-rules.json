@@ -1,7 +1,7 @@
 {
     "id": 513,
     "name": "GKD by Leo",
-    "version": 8,
+    "version": 9,
     "author": "Leo",
     "categories": [
         {
@@ -316,20 +316,56 @@
                             "key": 1,
                             "fastQuery": true,
                             "matches": "Button[text^=\"查看原视频\"][clickable=true]"
+                        },
+                        {
+                            "key": 2,
+                            "excludeMatches": "Button[text^=\"查看原视频\"][clickable=true][visibleToUser=true]",
+                            "matches": "ImageView[desc^=\"播放\"][clickable=true][visibleToUser=true]",
                         }
                     ],
                     "enable": true
                 },
                 {
-                    "key": 1,
-                    "name": "功能类-自动播放视频",
-                    "desc": "在无[查看原视频]按钮时自动播放视频",
-                    "activityIds": "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
+                    "key": 10,
+                    "name": "开屏广告-微信小程序",
+                    "fastQuery": true,
+                    "matchTime": 10000,
+                    "activityIds": [
+                        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI",
+                        "com.tencent.mm.plugin.appbrand.launching.AppBrandLaunchProxyUI"
+                    ],
+                    "rules": [
+                        {
+                            "actionDelay": 800,
+                            "matches": [
+                                "[text=\"广告\"][visibleToUser=true]",
+                                "[text=\"跳过\"][visibleToUser=true]"
+                            ],
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/12785183",
+                                "https://i.gkd.li/i/13306883",
+                                "https://i.gkd.li/i/13407275",
+                                "https://i.gkd.li/i/15108441"
+                            ]
+                        }
+                    ],
+                    "order": -10
+                },
+                {
+                    "key": 22,
+                    "name": "全屏广告-小程序-弹窗广告",
+                    "desc": "点击右上角x",
                     "rules": [
                         {
                             "key": 0,
-                            "excludeMatches": "Button[text^=\"查看原视频\"][clickable=true]",
-                            "matches": "ImageView[desc^=\"播放\"][clickable=true][visibleToUser=true]",
+                            "activityIds": "com.tencent.mm.plugin.appbrand.ui.AppBrandUI",
+                            "matches": "[text!=\"\" || text!=null] <<n FrameLayout[childCount<=5] > FrameLayout[childCount>=3 && childCount<=6] + FrameLayout[childCount=2] > TextView + FrameLayout > @FrameLayout[childCount=1] > ImageView",
+                            "exampleUrls": "https://m.gkd.li/101449500/1c7e1778-c5a2-426b-8beb-1b76893b6397",
+                            "snapshotUrls": [
+                                "https://i.gkd.li/i/14111422",
+                                "https://i.gkd.li/i/14111432",
+                                "https://i.gkd.li/i/13459614"
+                            ]
                         }
                     ],
                     "enable": true

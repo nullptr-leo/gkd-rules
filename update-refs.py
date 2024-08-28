@@ -5,7 +5,10 @@ from openpyxl import load_workbook
 
 extra_cmd_path = 'extra-cmd.bat'
 
-words = [ '红包', '权限', '兴趣', '更新', '输入法', '签到', '菜单', '二次弹窗', '屏蔽原因' ]
+words = [
+    '红包', '权限', '兴趣', '更新', '输入法', '签到', '菜单', '二次弹窗', '屏蔽原因',
+    '推荐', '自动授权'
+]
 
 # update 3rdparty rules
 os.system(r'curl -o 3rdparty/AIsouler_gkd.json -L https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5')
@@ -33,6 +36,7 @@ for filename in os.listdir('3rdparty'):
             # remove unused info - info part
             del rule['checkUpdateUrl']
             del rule['supportUri']
+            del rule['categories']
 
             # remove unused info - global part
             global_rule_cnt = len(rule['globalGroups'])
