@@ -883,35 +883,6 @@
                     "order": -10
                 },
                 {
-                    "key": 15,
-                    "name": "分段广告-好友动态页面\"为你推荐\"",
-                    "fastQuery": true,
-                    "activityIds": [
-                        "com.tencent.mobileqq.activity.SplashActivity",
-                        "com.qzone.reborn.feedx.activity.QZoneFriendFeedXActivity"
-                    ],
-                    "rules": [
-                        {
-                            "key": 0,
-                            "matches": "@ImageView[clickable=true] - [text=\"为你推荐\"]",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/12929620",
-                                "https://i.gkd.li/i/13387606"
-                            ]
-                        },
-                        {
-                            "preKeys": 0,
-                            "key": 1,
-                            "matches": "@LinearLayout[id!=null][clickable=true] > LinearLayout > [text=\"减少此类推荐\"]",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/12929619",
-                                "https://i.gkd.li/i/13387605"
-                            ]
-                        }
-                    ],
-                    "enable": false
-                },
-                {
                     "key": 20,
                     "name": "分段广告-钱包页卡片广告",
                     "rules": [
@@ -1489,79 +1460,6 @@
                     "enable": false
                 },
                 {
-                    "key": 10,
-                    "name": "分段广告-首页推荐视频卡片广告",
-                    "activityIds": "tv.danmaku.bili.MainActivityV2",
-                    "rules": [
-                        {
-                            "key": 0,
-                            "name": "点击卡片广告右下角菜单按钮",
-                            "fastQuery": true,
-                            "actionMaximum": 1,
-                            "matches": "[vid=\"ad_tint_frame\"] >2 [vid=\"more\"]",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/14083540",
-                                "https://i.gkd.li/i/14588315",
-                                "https://i.gkd.li/i/14729855"
-                            ]
-                        },
-                        {
-                            "preKeys": [
-                                0
-                            ],
-                            "key": 50,
-                            "fastQuery": true,
-                            "name": "点击[不感兴趣]",
-                            "matches": "@[clickable=true] > [text=\"不感兴趣\"]",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/13742257",
-                                "https://i.gkd.li/i/13256605",
-                                "https://i.gkd.li/i/14155801",
-                                "https://i.gkd.li/i/13742257"
-                            ]
-                        },
-                        {
-                            "preKeys": [
-                                0
-                            ],
-                            "key": 51,
-                            "name": "点击[相似内容过多]",
-                            "fastQuery": true,
-                            "matches": "@[clickable=true] > [text=\"相似内容过多\"]",
-                            "exampleUrls": "https://m.gkd.li/57941037/acd89b46-45fc-459f-8d17-3913d98dcbad",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/13945597",
-                                "https://i.gkd.li/i/14155272",
-                                "https://i.gkd.li/i/14059882"
-                            ]
-                        },
-                        {
-                            "preKeys": [
-                                0
-                            ],
-                            "key": 52,
-                            "name": "点击[up主不感兴趣]",
-                            "fastQuery": true,
-                            "matches": "@[clickable=true] > [text=\"up主不感兴趣\"]",
-                            "exampleUrls": "https://m.gkd.li/57941037/9c2f42d7-c262-4e06-b3c6-40f0908e7a94",
-                            "snapshotUrls": "https://i.gkd.li/i/13625309"
-                        }
-                    ],
-                    "enable": false
-                },
-                {
-                    "key": 11,
-                    "name": "局部广告-个性化内容推荐弹窗",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "activityIds": "tv.danmaku.bili.MainActivityV2",
-                    "rules": "[text=\"开启个性化内容推荐\"] +3 [id=\"tv.danmaku.bili:id/close_button\"]",
-                    "snapshotUrls": "https://i.gkd.li/i/13448905",
-                    "enable": false
-                },
-                {
                     "key": 12,
                     "name": "全屏广告-会员弹窗",
                     "desc": "点击关闭",
@@ -1638,16 +1536,6 @@
             "name": "大众点评",
             "groups": [
                 {
-                    "key": 1,
-                    "name": "全屏广告-主页推荐关注弹窗",
-                    "activityIds": [
-                        "com.dianping.main.guide.SplashActivity"
-                    ],
-                    "rules": "FrameLayout[id=\"android:id/content\"] >2 FrameLayout > ImageView + FrameLayout[id=null][desc=\"关闭\"][clickable=true]",
-                    "snapshotUrls": "https://i.gkd.li/i/12727011",
-                    "enable": false
-                },
-                {
                     "key": 4,
                     "name": "全屏广告-弹窗广告",
                     "rules": [
@@ -1657,42 +1545,6 @@
                             "fastQuery": true,
                             "matches": "[id=\"com.dianping.v1:id/operate_cross_icon\"]",
                             "snapshotUrls": "https://i.gkd.li/i/13538340"
-                        }
-                    ],
-                    "enable": false
-                },
-                {
-                    "key": 5,
-                    "name": "分段广告-推荐页卡片广告",
-                    "rules": [
-                        {
-                            "key": 0,
-                            "activityIds": "com.dianping.v1.NovaMainActivity",
-                            "matches": "@[desc=\"reculike_delete\"][clickable=true][visibleToUser=true] +3 [childCount=2]",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/13759369",
-                                "https://i.gkd.li/i/14332054"
-                            ]
-                        },
-                        {
-                            "preKeys": 0,
-                            "key": 1,
-                            "action": "clickCenter",
-                            "activityIds": "com.dianping.v1.NovaMainActivity",
-                            "matches": "@[clickable=true] > [text=\"重复出现\"]",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/14238381",
-                                "https://i.gkd.li/i/14269115"
-                            ]
-                        },
-                        {
-                            "preKeys": 0,
-                            "key": 2,
-                            "fastQuery": true,
-                            "activityIds": "com.dianping.v1.NovaMainActivity",
-                            "matches": "[text$=\"重复出现\"][clickable=true]",
-                            "exampleUrls": "https://m.gkd.li/57941037/010c0314-e89b-468f-8143-691925a308a6",
-                            "snapshotUrls": "https://i.gkd.li/i/14393256"
                         }
                     ],
                     "enable": false
@@ -2058,19 +1910,6 @@
                                 "https://i.gkd.li/i/13402399",
                                 "https://i.gkd.li/i/12548476"
                             ]
-                        }
-                    ],
-                    "enable": false
-                },
-                {
-                    "key": 9,
-                    "name": "局部广告-个性化内容推荐弹窗",
-                    "desc": "首页底部-个性化内容推荐弹窗-点击卡片右上角x直接关闭",
-                    "rules": [
-                        {
-                            "activityIds": "com.douban.frodo.activity.SplashActivity",
-                            "matches": "[id=\"com.douban.frodo:id/info\"][text^=\"开启个性化推荐\"] - [id=\"com.douban.frodo:id/close\"]",
-                            "snapshotUrls": "https://i.gkd.li/i/12836798"
                         }
                     ],
                     "enable": false
@@ -2569,15 +2408,6 @@
                     "enable": false
                 },
                 {
-                    "key": 11,
-                    "name": "局部广告-支付页面产品推荐",
-                    "desc": "自动点击右上角\"x\"",
-                    "activityIds": "com.jd.lib.settlement.fillorder.activity.NewFillOrderActivity",
-                    "rules": "ImageView[clickable=true && desc=\"关闭\"]",
-                    "snapshotUrls": "https://i.gkd.li/i/13191146",
-                    "enable": false
-                },
-                {
                     "key": 12,
                     "name": "全屏广告-购物车页面支付成功弹窗广告",
                     "desc": "自动点击正下方的\"x\"",
@@ -2649,27 +2479,6 @@
                         }
                     ],
                     "order": -10
-                },
-                {
-                    "key": 4,
-                    "name": "局部广告-[大家还下载了]应用推荐",
-                    "desc": "点击关闭",
-                    "rules": [
-                        {
-                            "fastQuery": true,
-                            "activityIds": [
-                                ".view.search.SuperSearchResultActivity",
-                                ".view.node.DynamicNodePageActivity"
-                            ],
-                            "matches": "[text=\"大家还下载了\"] + [vid=\"close_view\"]",
-                            "exampleUrls": "https://e.gkd.li/0cfa8038-dc74-46c3-9e06-998965d73711",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/16448265",
-                                "https://i.gkd.li/i/16448385"
-                            ]
-                        }
-                    ],
-                    "enable": false
                 }
             ]
         },
@@ -3275,26 +3084,6 @@
                                 "https://i.gkd.li/i/14305741",
                                 "https://i.gkd.li/i/14317199"
                             ]
-                        }
-                    ],
-                    "enable": false
-                },
-                {
-                    "key": 19,
-                    "name": "全屏广告-[个性化推荐]弹窗",
-                    "desc": "点击[取消]",
-                    "fastQuery": true,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "rules": [
-                        {
-                            "activityIds": "com.xunmeng.pinduoduo.ui.activity.HomeActivity",
-                            "matches": [
-                                "[text=\"个性化推荐未开启\"]",
-                                "[text=\"取消\"]"
-                            ],
-                            "exampleUrls": "https://m.gkd.li/57941037/0dd45b10-e323-4ab0-8135-19f45115487a",
-                            "snapshotUrls": "https://i.gkd.li/i/14964851"
                         }
                     ],
                     "enable": false
@@ -4216,22 +4005,6 @@
             "name": "微博",
             "groups": [
                 {
-                    "key": 4,
-                    "name": "全屏广告-精选博主推荐",
-                    "desc": "出现在长久未登录的账户再次登录时",
-                    "fastQuery": true,
-                    "activityIds": "com.sina.weibo.account.recommend.RecommendActivity",
-                    "rules": [
-                        "[id=\"com.sina.weibo:id/tv_option\"&&text=\"取消勾选\"]",
-                        "[id=\"com.sina.weibo:id/new_next_btn\"&&text=\"进入微博（已选0个）\"]"
-                    ],
-                    "snapshotUrls": [
-                        "https://i.gkd.li/i/12531433",
-                        "https://i.gkd.li/i/12531434"
-                    ],
-                    "enable": false
-                },
-                {
                     "key": 5,
                     "name": "局部广告-博文内容区与评论区中间卡片广告",
                     "desc": "点击右上角x",
@@ -4254,38 +4027,6 @@
                             "activityIds": "com.sina.weibo.feed.DetailWeiboActivity",
                             "matches": "[id=\"com.sina.weibo:id/tvTrendsTitle\"] + [id=\"com.sina.weibo:id/iv_ad_x\"]",
                             "snapshotUrls": "https://i.gkd.li/i/13787207"
-                        }
-                    ],
-                    "enable": false
-                },
-                {
-                    "key": 6,
-                    "name": "局部广告-评论区博主内容推荐",
-                    "desc": "评论区同一博主其他博文推荐",
-                    "fastQuery": true,
-                    "rules": [
-                        {
-                            "key": 0,
-                            "activityIds": [
-                                "com.sina.weibo.feed.DetailWeiboActivity"
-                            ],
-                            "matches": "RelativeLayout[visibleToUser=true] - RelativeLayout >n @[id=\"com.sina.weibo:id/ll_close\"] > [id=\"com.sina.weibo:id/tv_tips\"] + [id=\"com.sina.weibo:id/iv_close_icon\"]",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/12674498",
-                                "https://i.gkd.li/i/13035647"
-                            ]
-                        },
-                        {
-                            "preKeys": 0,
-                            "activityIds": [
-                                "com.sina.weibo.utils.WeiboDialog$CustomDialog",
-                                "com.sina.weibo.feed.DetailWeiboActivity"
-                            ],
-                            "matches": "TextView[text=\"不感兴趣\"]",
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/12674511",
-                                "https://i.gkd.li/i/12929591"
-                            ]
                         }
                     ],
                     "enable": false
@@ -4426,56 +4167,6 @@
                     "enable": false
                 },
                 {
-                    "key": 2,
-                    "name": "功能类-自动授权登录",
-                    "desc": "自动允许使用头像昵称等",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "activityIds": [
-                        "com.tencent.mm.plugin.base.stub.UIEntryStub",
-                        "com.tencent.mm.ui.LauncherUI",
-                        "com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI"
-                    ],
-                    "rules": [
-                        {
-                            "matches": [
-                                "[text^=\"获取你的\"]",
-                                "[text=\"允许\"]"
-                            ],
-                            "snapshotUrls": [
-                                "https://i.gkd.li/i/12663602",
-                                "https://i.gkd.li/i/13065462",
-                                "https://i.gkd.li/i/15271716"
-                            ]
-                        }
-                    ],
-                    "enable": false
-                },
-                {
-                    "key": 4,
-                    "name": "功能类-微信读书网页版扫码登录自动授权",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "activity",
-                    "activityIds": "com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI",
-                    "rules": [
-                        {
-                            "matches": "[text=\"微信读书网页版\"] +3 Button[text=\"登 录\"]",
-                            "snapshotUrls": "https://i.gkd.li/i/12506197"
-                        },
-                        {
-                            "matches": [
-                                "[text=\"登录成功\"]",
-                                "[id=\"com.tencent.mm:id/g1\"][desc=\"返回\"]"
-                            ],
-                            "snapshotUrls": "https://i.gkd.li/i/12506201"
-                        }
-                    ],
-                    "enable": false
-                },
-                {
                     "key": 7,
                     "name": "功能类-自动选中发送原图",
                     "desc": "图片和视频选择器-自动选中底部中间的发送原图",
@@ -4554,18 +4245,6 @@
                         }
                     ],
                     "order": -10
-                },
-                {
-                    "key": 11,
-                    "name": "功能类-网页版文件传输助手扫码自动授权",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "activity",
-                    "activityIds": "com.tencent.mm.ui.LauncherUI",
-                    "rules": "[text=\"打开网页版文件传输助手\"] + * > Button[text=\"打开\"]",
-                    "snapshotUrls": "https://i.gkd.li/i/12793745",
-                    "enable": false
                 },
                 {
                     "key": 17,
@@ -4651,15 +4330,6 @@
                     "enable": false
                 },
                 {
-                    "key": 25,
-                    "name": "局部广告-订阅号消息-推荐文章",
-                    "desc": "自动点击“x”",
-                    "activityIds": "com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity",
-                    "rules": "View[childCount=2] > View[desc$=\"推​荐​\"][childCount=3] > ImageView[index=2][clickable=true][visibleToUser=true]",
-                    "snapshotUrls": "https://i.gkd.li/i/14392392",
-                    "enable": false
-                },
-                {
                     "key": 26,
                     "name": "功能类-付款后自动点击完成/返回商家",
                     "rules": [
@@ -4673,38 +4343,6 @@
                                 "https://i.gkd.li/i/14662147",
                                 "https://i.gkd.li/i/14532946"
                             ]
-                        }
-                    ],
-                    "enable": false
-                },
-                {
-                    "key": 28,
-                    "name": "分段广告-订阅号消息页面视频推荐",
-                    "desc": "点击[X]-点击[不喜欢此类视频]-点击[确定]",
-                    "activityIds": "com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity",
-                    "rules": [
-                        {
-                            "key": 0,
-                            "name": "点击[X]",
-                            "matches": "[desc=\"订阅号消息\"] +3 View >2 [visibleToUser=true] - View >3 ImageView[index=2][clickable=true]",
-                            "exampleUrls": "https://m.gkd.li/57941037/b777c0b1-f8ed-4712-afd6-2e1a72243475",
-                            "snapshotUrls": "https://i.gkd.li/i/14436176"
-                        },
-                        {
-                            "preKeys": 0,
-                            "key": 1,
-                            "name": "点击[不喜欢此类视频]",
-                            "matches": "[desc=\"不喜欢此类视频\"][clickable=true]",
-                            "exampleUrls": "https://m.gkd.li/57941037/39e8b378-9b55-4838-92af-b28f04402ca4",
-                            "snapshotUrls": "https://i.gkd.li/i/14444654"
-                        },
-                        {
-                            "preKeys": 1,
-                            "key": 2,
-                            "name": "点击[确定]",
-                            "matches": "[desc=\"确定\"][clickable=true]",
-                            "exampleUrls": "https://m.gkd.li/57941037/590eb619-9987-4edf-98a8-17146ffeda10",
-                            "snapshotUrls": "https://i.gkd.li/i/14436190"
                         }
                     ],
                     "enable": false
@@ -4735,33 +4373,6 @@
                             "matches": "@TextView[clickable=true] + * > [visibleToUser=true][text^=\"使用 APP\"] <<n [id=\"android:id/content\"]",
                             "exampleUrls": "https://m.gkd.li/57941037/2228f99e-e0a1-4915-864f-d60e3d8580a6",
                             "snapshotUrls": "https://i.gkd.li/i/14533286"
-                        }
-                    ],
-                    "enable": false
-                },
-                {
-                    "key": 31,
-                    "name": "分段广告-订阅号消息页面-推荐阅读",
-                    "desc": "点击关闭",
-                    "activityIds": "com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity",
-                    "rules": [
-                        {
-                            "key": 0,
-                            "matches": "View > Button > View[desc$=\"推​荐​\"] > ImageView[index=1][clickable=true][visibleToUser=true]",
-                            "exampleUrls": "https://m.gkd.li/101449500/5b815528-1ca2-4016-930e-a3cfb4e5e7ea",
-                            "snapshotUrls": "https://i.gkd.li/i/14548701"
-                        },
-                        {
-                            "key": 1,
-                            "preKeys": 0,
-                            "matches": "[desc=\"不看此类内容\"]",
-                            "snapshotUrls": "https://i.gkd.li/i/14549566"
-                        },
-                        {
-                            "key": 2,
-                            "preKeys": 1,
-                            "matches": "[desc=\"确定\"]",
-                            "snapshotUrls": "https://i.gkd.li/i/14549567"
                         }
                     ],
                     "enable": false
@@ -5279,18 +4890,6 @@
                     "enable": false
                 },
                 {
-                    "key": 12,
-                    "name": "局部广告-个性化推荐卡片",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "activityIds": "com.xiaomi.market.business_ui.main.MarketTabActivity",
-                    "rules": "[id=\"com.xiaomi.market:id/close_float_recommend\"]",
-                    "snapshotUrls": "https://i.gkd.li/i/13624971",
-                    "enable": false
-                },
-                {
                     "key": 13,
                     "name": "功能类-自动点击[查看全部升级]",
                     "desc": "应用升级页面",
@@ -5597,15 +5196,6 @@
                         "https://i.gkd.li/i/12701050",
                         "https://i.gkd.li/i/13498556"
                     ],
-                    "enable": false
-                },
-                {
-                    "key": 3,
-                    "name": "全屏广告-视频推荐弹窗",
-                    "fastQuery": true,
-                    "activityIds": "com.youku.vip.wrapper.VipHomeActivity",
-                    "rules": "[id=\"com.youku.phone:id/closeView\"][desc=\"关闭弹层\"]",
-                    "snapshotUrls": "https://i.gkd.li/i/12701029",
                     "enable": false
                 },
                 {
