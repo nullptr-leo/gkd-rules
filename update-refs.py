@@ -5,14 +5,19 @@ from openpyxl import load_workbook
 
 extra_cmd_path = 'extra-cmd.bat'
 
+source_list = [
+    'https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5',
+    'https://registry.npmmirror.com/@adpro/gkd_subscription/latest/files/dist/Adpro_gkd.json5',
+]
+
 words = [
-    '红包', '权限', '兴趣', '更新', '输入法', '签到', '菜单', '二次弹窗', '屏蔽原因',
-    '推荐', '自动授权'
+    '红包', '权限', '兴趣', '更新', '输入法', '签到', '菜单', '二次弹窗', '屏蔽原因', '推荐', '自动授权'
 ]
 
 # update 3rdparty rules
-os.system(r'curl -o 3rdparty/AIsouler_gkd.json -L https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5')
-os.system(r'curl -o 3rdparty/Adpro_gkd.json -L https://registry.npmmirror.com/@adpro/gkd_subscription/latest/files/dist/Adpro_gkd.json5')
+for source in source_list:
+    filename = os.path.basename(source)
+    os.system(f'curl -o 3rdparty/{filename} -L {source}')
 
 if os.path.exists(extra_cmd_path):
     os.remove(extra_cmd_path)

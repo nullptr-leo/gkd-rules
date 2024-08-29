@@ -9,13 +9,18 @@ extra_cmd_path = 'extra-cmd.bat'
 # load pkg defs
 strip_list = [ ]
 allow_list = [ ]
-workbook = load_workbook('pkg-info.xlsx')
-worksheet = workbook.active
-for row in worksheet.iter_rows(min_row=1, max_col=3, values_only=True):
-    if row[2] == 1:
-        strip_list.append(row[0])
-    elif row[2] == 0:
-        allow_list.append(row[0])
+
+try:
+    workbook = load_workbook('pkg-info.xlsx')
+    worksheet = workbook.active
+    for row in worksheet.iter_rows(min_row=1, max_col=3, values_only=True):
+        if row[2] == 1:
+            strip_list.append(row[0])
+        elif row[2] == 0:
+            allow_list.append(row[0])
+except Exception as e:
+    print(f"Error loading Excel data: {e}")
+    exit(-1)
 
 with open(rule_path, 'r', encoding='utf-8') as file:
     rule = execjs.eval(file.read())
