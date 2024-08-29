@@ -8,6 +8,7 @@ extra_cmd_path = 'extra-cmd.bat'
 source_list = [
     'https://registry.npmmirror.com/@aisouler/gkd_subscription/latest/files/dist/AIsouler_gkd.json5',
     'https://registry.npmmirror.com/@adpro/gkd_subscription/latest/files/dist/Adpro_gkd.json5',
+    'https://registry.npmmirror.com/@aoguai/subscription/latest/files/dist/aoguai_gkd.json5',
 ]
 
 words = [
