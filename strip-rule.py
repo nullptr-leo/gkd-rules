@@ -1,5 +1,5 @@
 import execjs
-import json
+import json5 as json
 from openpyxl import load_workbook
 
 rule_path = 'rules/rule.json'
