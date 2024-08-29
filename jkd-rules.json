@@ -1,725 +1,725 @@
 {
-    "id": 513,
-    "name": "GKD by Leo",
-    "version": 20,
-    "author": "Leo",
-    "categories": [
+    id: 513,
+    name: "GKD by Leo",
+    version: 21,
+    author: "Leo",
+    categories: [
         {
-            "key": 0,
-            "name": "开屏广告"
+            key: 0,
+            name: "开屏广告",
         },
         {
-            "key": 1,
-            "name": "青少年模式"
+            key: 1,
+            name: "青少年模式",
         },
         {
-            "key": 2,
-            "name": "其他广告"
+            key: 2,
+            name: "其他广告",
         },
         {
-            "key": 3,
-            "name": "通知提示"
+            key: 3,
+            name: "通知提示",
         },
         {
-            "key": 4,
-            "name": "功能类"
+            key: 4,
+            name: "功能类",
         },
         {
-            "key": 5,
-            "name": "其他"
-        }
+            key: 5,
+            name: "其他",
+        },
     ],
-    "globalGroups": [
+    globalGroups: [
         {
-            "key": 0,
-            "name": "开屏广告",
-            "order": -10,
-            "fastQuery": true,
-            "matchRoot": true,
-            "matchTime": 10000,
-            "actionMaximum": 1,
-            "resetMatch": "app",
-            "actionMaximumKey": 0,
-            "rules": [
+            key: 0,
+            name: "开屏广告",
+            order: -10,
+            fastQuery: true,
+            matchRoot: true,
+            matchTime: 10000,
+            actionMaximum: 1,
+            resetMatch: "app",
+            actionMaximumKey: 0,
+            rules: [
                 {
-                    "key": 0,
-                    "excludeMatches": [
+                    key: 0,
+                    excludeMatches: [
                         "[text*=\"搜索\"][text.length<6][visibleToUser=true]",
-                        "[(text*=\"搜索\" && text.length<6) || vid~=\"(?is).*search.*\" || (desc*=\"搜索\" && desc.length<6)][visibleToUser=true]"
+                        "[(text*=\"搜索\" && text.length<6) || vid~=\"(?is).*search.*\" || (desc*=\"搜索\" && desc.length<6)][visibleToUser=true]",
                     ],
-                    "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]"
+                    matches: "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
                 },
                 {
-                    "key": 1,
-                    "excludeMatches": [
+                    key: 1,
+                    excludeMatches: [
                         "[text*=\"搜索\"][text.length<6][visibleToUser=true]",
-                        "[(text*=\"搜索\" && text.length<6) || vid~=\"(?is).*search.*\" || (desc*=\"搜索\" && desc.length<6)][visibleToUser=true]"
+                        "[(text*=\"搜索\" && text.length<6) || vid~=\"(?is).*search.*\" || (desc*=\"搜索\" && desc.length<6)][visibleToUser=true]",
                     ],
-                    "matches": "[childCount=0][visibleToUser=true][((text*=\"跳过\" || text*=\"跳過\" || text~=\"(?is).*skip.*\") && text.length<10) || ((desc*=\"跳过\" || desc*=\"跳過\" || desc~=\"(?is).*skip.*\") && desc.length<10) || id~=\"(?is).*tt_splash_skip_btn\" || vid~=\"(?is).*skip.*\" || (vid~=\"(?is).*count.*\" && vid~=\"(?is).*down.*\" && vid!~=\"(?is).*load.*\" && vid!~=\"(?is).*time.*\" && vid!~=\"(?is).*hour.*\" && vid!~=\"(?is).*minute.*\" && vid!~=\"(?is).*second.*\" && vid!~=\"(?is).*add.*\" && vid!~=\"(?is).*ead.*\" && text!~=\"([01]?[0-9]|2[0-3])[:：][0-5][0-9]\")]"
+                    matches: "[childCount=0][visibleToUser=true][((text*=\"跳过\" || text*=\"跳過\" || text~=\"(?is).*skip.*\") && text.length<10) || ((desc*=\"跳过\" || desc*=\"跳過\" || desc~=\"(?is).*skip.*\") && desc.length<10) || id~=\"(?is).*tt_splash_skip_btn\" || vid~=\"(?is).*skip.*\" || (vid~=\"(?is).*count.*\" && vid~=\"(?is).*down.*\" && vid!~=\"(?is).*load.*\" && vid!~=\"(?is).*time.*\" && vid!~=\"(?is).*hour.*\" && vid!~=\"(?is).*minute.*\" && vid!~=\"(?is).*second.*\" && vid!~=\"(?is).*add.*\" && vid!~=\"(?is).*ead.*\" && text!~=\"([01]?[0-9]|2[0-3])[:：][0-5][0-9]\")]",
                 },
                 {
-                    "key": 2,
-                    "matches": "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]"
-                }
+                    key: 2,
+                    matches: "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
+                },
             ],
-            "apps": [
+            apps: [
                 {
-                    "id": "com.tencent.mm",
-                    "enable": false
+                    id: "com.tencent.mm",
+                    enable: false,
                 },
                 {
-                    "id": "li.songe.gkd",
-                    "enable": false
+                    id: "li.songe.gkd",
+                    enable: false,
                 },
                 {
-                    "id": "com.eg.android.AlipayGphone",
-                    "enable": false
+                    id: "com.eg.android.AlipayGphone",
+                    enable: false,
                 },
                 {
-                    "id": "com.tencent.wetype",
-                    "enable": false
+                    id: "com.tencent.wetype",
+                    enable: false,
                 },
                 {
-                    "id": "com.tmri.app.main",
-                    "enable": false
+                    id: "com.tmri.app.main",
+                    enable: false,
                 },
                 {
-                    "id": "com.github.android",
-                    "enable": false
+                    id: "com.github.android",
+                    enable: false,
                 },
                 {
-                    "id": "org.telegram.messenger",
-                    "enable": false
+                    id: "org.telegram.messenger",
+                    enable: false,
                 },
                 {
-                    "id": "com.twitter.android",
-                    "enable": false
+                    id: "com.twitter.android",
+                    enable: false,
                 },
                 {
-                    "id": "com.x8bit.bitwarden",
-                    "enable": false
+                    id: "com.x8bit.bitwarden",
+                    enable: false,
                 },
                 {
-                    "id": "com.accessibilitymanager",
-                    "enable": false
+                    id: "com.accessibilitymanager",
+                    enable: false,
                 },
                 {
-                    "id": "com.absinthe.libchecker",
-                    "enable": false
+                    id: "com.absinthe.libchecker",
+                    enable: false,
                 },
                 {
-                    "id": "com.alicloud.databox",
-                    "enable": false
+                    id: "com.alicloud.databox",
+                    enable: false,
                 },
                 {
-                    "id": "com.google.android.youtube",
-                    "enable": false
+                    id: "com.google.android.youtube",
+                    enable: false,
                 },
                 {
-                    "id": "com.xunmeng.pinduoduo",
-                    "enable": false
+                    id: "com.xunmeng.pinduoduo",
+                    enable: false,
                 },
                 {
-                    "id": "com.microsoft.office.officehub",
-                    "enable": false
+                    id: "com.microsoft.office.officehub",
+                    enable: false,
                 },
                 {
-                    "id": "com.tencent.tmgp.sgame",
-                    "enable": false
+                    id: "com.tencent.tmgp.sgame",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.weather2",
-                    "enable": false
+                    id: "com.miui.weather2",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.calculator",
-                    "enable": false
+                    id: "com.miui.calculator",
+                    enable: false,
                 },
                 {
-                    "id": "com.android.soundrecorder",
-                    "enable": false
+                    id: "com.android.soundrecorder",
+                    enable: false,
                 },
                 {
-                    "id": "com.android.email",
-                    "enable": false
+                    id: "com.android.email",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.screenrecorder",
-                    "enable": false
+                    id: "com.miui.screenrecorder",
+                    enable: false,
                 },
                 {
-                    "id": "com.android.deskclock",
-                    "enable": false
+                    id: "com.android.deskclock",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.newmidrive",
-                    "enable": false
+                    id: "com.miui.newmidrive",
+                    enable: false,
                 },
                 {
-                    "id": "cn.wps.moffice_eng.xiaomi.lite",
-                    "enable": false
+                    id: "cn.wps.moffice_eng.xiaomi.lite",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.mediaeditor",
-                    "enable": false
+                    id: "com.miui.mediaeditor",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.notes",
-                    "enable": false
+                    id: "com.miui.notes",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.cleanmaster",
-                    "enable": false
+                    id: "com.miui.cleanmaster",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.compass",
-                    "enable": false
+                    id: "com.miui.compass",
+                    enable: false,
                 },
                 {
-                    "id": "com.duokan.phone.remotecontroller",
-                    "enable": false
+                    id: "com.duokan.phone.remotecontroller",
+                    enable: false,
                 },
                 {
-                    "id": "info.muge.appshare",
-                    "enable": false
+                    id: "info.muge.appshare",
+                    enable: false,
                 },
                 {
-                    "id": "com.tencent.mobileqq",
-                    "enable": false
+                    id: "com.tencent.mobileqq",
+                    enable: false,
                 },
                 {
-                    "id": "com.mfcloudcalculate.networkdisk",
-                    "enable": false
+                    id: "com.mfcloudcalculate.networkdisk",
+                    enable: false,
                 },
                 {
-                    "id": "com.qiyi.video",
-                    "enable": false
+                    id: "com.qiyi.video",
+                    enable: false,
                 },
                 {
-                    "id": "tv.danmaku.bili",
-                    "enable": false
+                    id: "tv.danmaku.bili",
+                    enable: false,
                 },
                 {
-                    "id": "com.citiccard.mobilebank",
-                    "enable": false
+                    id: "com.citiccard.mobilebank",
+                    enable: false,
                 },
                 {
-                    "id": "com.douban.frodo",
-                    "enable": false
+                    id: "com.douban.frodo",
+                    enable: false,
                 },
                 {
-                    "id": "com.autonavi.minimap",
-                    "enable": false
+                    id: "com.autonavi.minimap",
+                    enable: false,
                 },
                 {
-                    "id": "com.jingdong.app.mall",
-                    "enable": false
+                    id: "com.jingdong.app.mall",
+                    enable: false,
                 },
                 {
-                    "id": "com.coolapk.market",
-                    "enable": false
+                    id: "com.coolapk.market",
+                    enable: false,
                 },
                 {
-                    "id": "com.fan.app",
-                    "enable": false
+                    id: "com.fan.app",
+                    enable: false,
                 },
                 {
-                    "id": "com.tencent.qqlive",
-                    "enable": false
+                    id: "com.tencent.qqlive",
+                    enable: false,
                 },
                 {
-                    "id": "com.netease.cloudmusic",
-                    "enable": false
+                    id: "com.netease.cloudmusic",
+                    enable: false,
                 },
                 {
-                    "id": "com.ct.client",
-                    "enable": false
+                    id: "com.ct.client",
+                    enable: false,
                 },
                 {
-                    "id": "com.android.bankabc",
-                    "enable": false
+                    id: "com.android.bankabc",
+                    enable: false,
                 },
                 {
-                    "id": "com.greenpoint.android.mc10086.activity",
-                    "enable": false
+                    id: "com.greenpoint.android.mc10086.activity",
+                    enable: false,
                 },
                 {
-                    "id": "com.miui.player",
-                    "enable": true
-                }
-            ]
-        }
+                    id: "com.miui.player",
+                    enable: true,
+                },
+            ],
+        },
     ],
-    "apps": [
+    apps: [
         {
-            "id": "info.muge.appshare",
-            "name": "AppShare",
-            "groups": [
+            id: "info.muge.appshare",
+            name: "AppShare",
+            groups: [
                 {
-                    "key": 0,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "actionMaximumKey": 0,
-                    "rules": [
+                    key: 0,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    actionMaximumKey: 0,
+                    rules: [
                         {
-                            "key": 0,
-                            "matches": "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
-                            "snapshotUrls": [
+                            key: 0,
+                            matches: "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/13842826",
                                 "https://i.gkd.li/i/13939089",
-                                "https://i.gkd.li/i/14260635"
-                            ]
+                                "https://i.gkd.li/i/14260635",
+                            ],
                         },
                         {
-                            "key": 1,
-                            "matches": "[text*=\"跳过\"][visibleToUser=true][text.length<=10]",
-                            "snapshotUrls": "https://i.gkd.li/i/14553551"
+                            key: 1,
+                            matches: "[text*=\"跳过\"][visibleToUser=true][text.length<=10]",
+                            snapshotUrls: "https://i.gkd.li/i/14553551",
                         },
                         {
-                            "key": 2,
-                            "position": {
-                                "left": "width * 0.5",
-                                "top": "width * 0.6984"
+                            key: 2,
+                            position: {
+                                left: "width * 0.5",
+                                top: "width * 0.6984",
                             },
-                            "matches": "@ViewGroup > [text=\"跳过\"][visibleToUser=true]",
-                            "snapshotUrls": [
+                            matches: "@ViewGroup > [text=\"跳过\"][visibleToUser=true]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/15269380",
                                 "https://i.gkd.li/i/15285908",
-                                "https://i.gkd.li/i/15520277"
-                            ]
-                        }
+                                "https://i.gkd.li/i/15520277",
+                            ],
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.tencent.mm",
-            "name": "微信",
-            "groups": [
+            id: "com.tencent.mm",
+            name: "微信",
+            groups: [
                 {
-                    "key": 0,
-                    "name": "功能类-自动查看原图/原视频",
-                    "desc": "自动点击[查看原图]按钮",
-                    "activityIds": "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
-                    "rules": [
+                    key: 0,
+                    name: "功能类-自动查看原图/原视频",
+                    desc: "自动点击[查看原图]按钮",
+                    activityIds: "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
+                    rules: [
                         {
-                            "key": 0,
-                            "matches": "Button[text^=\"查看原图\"][clickable=true][visibleToUser=true]",
-                            "snapshotUrls": "https://i.gkd.li/i/13523031"
+                            key: 0,
+                            matches: "Button[text^=\"查看原图\"][clickable=true][visibleToUser=true]",
+                            snapshotUrls: "https://i.gkd.li/i/13523031",
                         },
                         {
-                            "key": 1,
-                            "matches": "Button[text^=\"查看原视频\"][clickable=true][visibleToUser=true]"
-                        }
+                            key: 1,
+                            matches: "Button[text^=\"查看原视频\"][clickable=true][visibleToUser=true]",
+                        },
                     ],
-                    "enable": true
+                    enable: true,
                 },
                 {
-                    "key": 1,
-                    "name": "功能类-自动播放视频",
-                    "desc": "自动点击[视频播放]按钮",
-                    "activityIds": "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
-                    "rules": [
+                    key: 1,
+                    name: "功能类-自动播放视频",
+                    desc: "自动点击[视频播放]按钮",
+                    activityIds: "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
+                    rules: [
                         {
-                            "key": 0,
-                            "excludeMatches": "Button[text^=\"查看原视频\"][clickable=true][visibleToUser=true]",
-                            "matches": "FrameLayout[index=1] > RelativeLayout > ImageView[desc^=\"播放\"][clickable=true][visibleToUser=true]"
-                        }
+                            key: 0,
+                            excludeMatches: "Button[text^=\"查看原视频\"][clickable=true][visibleToUser=true]",
+                            matches: "FrameLayout[index=1] > RelativeLayout > ImageView[desc^=\"播放\"][clickable=true][visibleToUser=true]",
+                        },
                     ],
-                    "enable": true
+                    enable: true,
                 },
                 {
-                    "key": 10,
-                    "name": "开屏广告-微信小程序",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "activityIds": [
+                    key: 10,
+                    name: "开屏广告-微信小程序",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    activityIds: [
                         "com.tencent.mm.plugin.appbrand.ui.AppBrandUI",
-                        "com.tencent.mm.plugin.appbrand.launching.AppBrandLaunchProxyUI"
+                        "com.tencent.mm.plugin.appbrand.launching.AppBrandLaunchProxyUI",
                     ],
-                    "rules": [
+                    rules: [
                         {
-                            "actionDelay": 800,
-                            "matches": [
+                            actionDelay: 800,
+                            matches: [
                                 "[text=\"广告\"][visibleToUser=true]",
-                                "[text=\"跳过\"][visibleToUser=true]"
+                                "[text=\"跳过\"][visibleToUser=true]",
                             ],
-                            "snapshotUrls": [
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/12785183",
                                 "https://i.gkd.li/i/13306883",
                                 "https://i.gkd.li/i/13407275",
-                                "https://i.gkd.li/i/15108441"
-                            ]
-                        }
+                                "https://i.gkd.li/i/15108441",
+                            ],
+                        },
                     ],
-                    "order": -10
+                    order: -10,
                 },
                 {
-                    "key": 22,
-                    "name": "全屏广告-小程序-弹窗广告",
-                    "desc": "点击右上角关闭",
-                    "rules": [
+                    key: 22,
+                    name: "全屏广告-小程序-弹窗广告",
+                    desc: "点击右上角关闭",
+                    rules: [
                         {
-                            "key": 0,
-                            "activityIds": "com.tencent.mm.plugin.appbrand.ui.AppBrandUI",
-                            "matches": "[text!=\"\" || text!=null] <<n FrameLayout[childCount<=5] > FrameLayout[childCount>=3 && childCount<=6] + FrameLayout[childCount=2] > TextView + FrameLayout > @FrameLayout[childCount=1] > ImageView",
-                            "exampleUrls": "https://m.gkd.li/101449500/1c7e1778-c5a2-426b-8beb-1b76893b6397",
-                            "snapshotUrls": [
+                            key: 0,
+                            activityIds: "com.tencent.mm.plugin.appbrand.ui.AppBrandUI",
+                            matches: "[text!=\"\" || text!=null] <<n FrameLayout[childCount<=5] > FrameLayout[childCount>=3 && childCount<=6] + FrameLayout[childCount=2] > TextView + FrameLayout > @FrameLayout[childCount=1] > ImageView",
+                            exampleUrls: "https://m.gkd.li/101449500/1c7e1778-c5a2-426b-8beb-1b76893b6397",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/14111422",
                                 "https://i.gkd.li/i/14111432",
-                                "https://i.gkd.li/i/13459614"
-                            ]
-                        }
+                                "https://i.gkd.li/i/13459614",
+                            ],
+                        },
                     ],
-                    "enable": true
-                }
-            ]
+                    enable: true,
+                },
+            ],
         },
         {
-            "id": "tv.danmaku.bili",
-            "name": "哔哩哔哩",
-            "groups": [
+            id: "tv.danmaku.bili",
+            name: "哔哩哔哩",
+            groups: [
                 {
-                    "key": -1,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "rules": [
+                    key: -1,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
                         {
-                            "matches": "[vid=\"count_down\" || vid=\"skip\"][visibleToUser=true]",
-                            "snapshotUrls": [
+                            matches: "[vid=\"count_down\" || vid=\"skip\"][visibleToUser=true]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/16187624",
-                                "https://i.gkd.li/i/16484445"
-                            ]
-                        }
+                                "https://i.gkd.li/i/16484445",
+                            ],
+                        },
                     ],
-                    "order": -10
+                    order: -10,
                 },
                 {
-                    "key": 1,
-                    "name": "青少年模式",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "rules": "TextView[text*=\"青少年模式\"] +n TextView[text=\"我知道了\"]",
-                    "snapshotUrls": "https://i.gkd.li/i/13746766",
-                    "enable": false
-                }
-            ]
+                    key: 1,
+                    name: "青少年模式",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: "TextView[text*=\"青少年模式\"] +n TextView[text=\"我知道了\"]",
+                    snapshotUrls: "https://i.gkd.li/i/13746766",
+                    enable: false,
+                },
+            ],
         },
         {
-            "id": "com.douban.frodo",
-            "name": "豆瓣",
-            "groups": [
+            id: "com.douban.frodo",
+            name: "豆瓣",
+            groups: [
                 {
-                    "key": -1,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "actionMaximumKey": 0,
-                    "rules": [
+                    key: -1,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    actionMaximumKey: 0,
+                    rules: [
                         {
-                            "key": 0,
-                            "matches": "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
-                            "snapshotUrls": "https://i.gkd.li/i/15981630"
+                            key: 0,
+                            matches: "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
+                            snapshotUrls: "https://i.gkd.li/i/15981630",
                         },
                         {
-                            "key": 1,
-                            "position": {
-                                "left": "width * 0.8833",
-                                "top": "width * 0.1388"
+                            key: 1,
+                            position: {
+                                left: "width * 0.8833",
+                                top: "width * 0.1388",
                             },
-                            "excludeMatches": "[id=\"com.douban.frodo:id/_ad_image_\"][width=1200]",
-                            "matches": "[id=\"com.douban.frodo:id/_ad_image_\"]",
-                            "snapshotUrls": [
+                            excludeMatches: "[id=\"com.douban.frodo:id/_ad_image_\"][width=1200]",
+                            matches: "[id=\"com.douban.frodo:id/_ad_image_\"]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/13575257",
-                                "https://i.gkd.li/i/13575547"
-                            ]
+                                "https://i.gkd.li/i/13575547",
+                            ],
                         },
                         {
-                            "key": 2,
-                            "position": {
-                                "left": "width * 0.8666",
-                                "top": "width * 0.1625"
+                            key: 2,
+                            position: {
+                                left: "width * 0.8666",
+                                top: "width * 0.1625",
                             },
-                            "matches": "[id=\"com.douban.frodo:id/_ad_image_\"][width=1200]",
-                            "snapshotUrls": [
+                            matches: "[id=\"com.douban.frodo:id/_ad_image_\"][width=1200]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/13601755",
-                                "https://i.gkd.li/i/16054268"
-                            ]
-                        }
+                                "https://i.gkd.li/i/16054268",
+                            ],
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.autonavi.minimap",
-            "name": "高德地图",
-            "groups": [
+            id: "com.autonavi.minimap",
+            name: "高德地图",
+            groups: [
                 {
-                    "key": -1,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "rules": [
+                    key: -1,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
                         {
-                            "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
-                            "exampleUrls": "https://e.gkd.li/983cc392-1b01-4172-bc1d-2df001baeb3d",
-                            "snapshotUrls": "https://i.gkd.li/i/16490985"
-                        }
+                            matches: "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
+                            exampleUrls: "https://e.gkd.li/983cc392-1b01-4172-bc1d-2df001baeb3d",
+                            snapshotUrls: "https://i.gkd.li/i/16490985",
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.jingdong.app.mall",
-            "name": "京东",
-            "groups": [
+            id: "com.jingdong.app.mall",
+            name: "京东",
+            groups: [
                 {
-                    "key": 0,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "rules": [
+                    key: 0,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
                         {
-                            "excludeActivityIds": "com.jd.lib.search.view.Activity.SearchActivity",
-                            "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
-                            "snapshotUrls": [
+                            excludeActivityIds: "com.jd.lib.search.view.Activity.SearchActivity",
+                            matches: "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/16323111",
-                                "https://i.gkd.li/i/16323115"
-                            ]
-                        }
+                                "https://i.gkd.li/i/16323115",
+                            ],
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.coolapk.market",
-            "name": "酷安",
-            "groups": [
+            id: "com.coolapk.market",
+            name: "酷安",
+            groups: [
                 {
-                    "key": -1,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "actionMaximumKey": 0,
-                    "excludeActivityIds": [
+                    key: -1,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    actionMaximumKey: 0,
+                    excludeActivityIds: [
                         "com.coolapk.market.view.search.",
-                        "com.coolapk.market.view.feed."
+                        "com.coolapk.market.view.feed.",
                     ],
-                    "rules": [
+                    rules: [
                         {
-                            "key": 0,
-                            "matches": "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
-                            "snapshotUrls": [
+                            key: 0,
+                            matches: "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/12503773",
                                 "https://i.gkd.li/i/13247610",
                                 "https://i.gkd.li/i/13264779",
                                 "https://i.gkd.li/i/13826359",
-                                "https://i.gkd.li/i/13827095"
-                            ]
+                                "https://i.gkd.li/i/13827095",
+                            ],
                         },
                         {
-                            "key": 1,
-                            "matches": "[text^=\"跳过\"][text.length<=4]",
-                            "excludeMatches": "[id=\"com.coolapk.market:id/item_view\"]",
-                            "snapshotUrls": [
+                            key: 1,
+                            matches: "[text^=\"跳过\"][text.length<=4]",
+                            excludeMatches: "[id=\"com.coolapk.market:id/item_view\"]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/12917990",
                                 "https://i.gkd.li/i/13211392",
                                 "https://i.gkd.li/i/13247733",
                                 "https://i.gkd.li/i/13247782",
-                                "https://i.gkd.li/i/13296816"
-                            ]
-                        }
+                                "https://i.gkd.li/i/13296816",
+                            ],
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.fan.app",
-            "name": "十六番旅行",
-            "groups": [
+            id: "com.fan.app",
+            name: "十六番旅行",
+            groups: [
                 {
-                    "key": 0,
-                    "name": "开屏广告",
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "rules": [
+                    key: 0,
+                    name: "开屏广告",
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
                         {
-                            "fastQuery": true,
-                            "matches": "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
-                            "exampleUrls": "https://m.gkd.li/57941037/470c6262-62ca-45c5-908c-8435d7b0e86f",
-                            "snapshotUrls": [
+                            fastQuery: true,
+                            matches: "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][visibleToUser=true] + TextView[text=null] <<n [id=\"android:id/content\"]",
+                            exampleUrls: "https://m.gkd.li/57941037/470c6262-62ca-45c5-908c-8435d7b0e86f",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/14596657",
-                                "https://i.gkd.li/i/13258011"
-                            ]
-                        }
+                                "https://i.gkd.li/i/13258011",
+                            ],
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.tencent.qqlive",
-            "name": "腾讯视频",
-            "groups": [
+            id: "com.tencent.qqlive",
+            name: "腾讯视频",
+            groups: [
                 {
-                    "key": 0,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "rules": [
+                    key: 0,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
                         {
-                            "key": 0,
-                            "action": "clickCenter",
-                            "matches": "TextView[text*=\"跳过\"][text.length<=10]",
-                            "snapshotUrls": "https://i.gkd.li/i/14049316"
-                        }
+                            key: 0,
+                            action: "clickCenter",
+                            matches: "TextView[text*=\"跳过\"][text.length<=10]",
+                            snapshotUrls: "https://i.gkd.li/i/14049316",
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.netease.cloudmusic",
-            "name": "网易云音乐",
-            "groups": [
+            id: "com.netease.cloudmusic",
+            name: "网易云音乐",
+            groups: [
                 {
-                    "key": 0,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "rules": [
+                    key: 0,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
                         {
-                            "key": 0,
-                            "excludeActivityIds": "com.netease.cloudmusic.music.biz.setting.activity.SettingActivity",
-                            "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
-                            "snapshotUrls": [
+                            key: 0,
+                            excludeActivityIds: "com.netease.cloudmusic.music.biz.setting.activity.SettingActivity",
+                            matches: "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/15092772",
-                                "https://i.gkd.li/i/15092814"
-                            ]
-                        }
+                                "https://i.gkd.li/i/15092814",
+                            ],
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.android.bankabc",
-            "name": "中国农业银行",
-            "groups": [
+            id: "com.android.bankabc",
+            name: "中国农业银行",
+            groups: [
                 {
-                    "key": 1,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "actionMaximumKey": 0,
-                    "rules": [
+                    key: 1,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    actionMaximumKey: 0,
+                    rules: [
                         {
-                            "key": 0,
-                            "matches": "[id=\"com.android.bankabc:id/close\"]",
-                            "exampleUrls": "https://m.gkd.li/57941037/67cfc2f8-a108-4382-976a-0da7d13764e9",
-                            "snapshotUrls": "https://i.gkd.li/i/14179162"
-                        }
+                            key: 0,
+                            matches: "[id=\"com.android.bankabc:id/close\"]",
+                            exampleUrls: "https://m.gkd.li/57941037/67cfc2f8-a108-4382-976a-0da7d13764e9",
+                            snapshotUrls: "https://i.gkd.li/i/14179162",
+                        },
                     ],
-                    "order": -10
-                }
-            ]
+                    order: -10,
+                },
+            ],
         },
         {
-            "id": "com.tencent.mobileqq",
-            "name": "QQ",
-            "groups": [
+            id: "com.tencent.mobileqq",
+            name: "QQ",
+            groups: [
                 {
-                    "key": 0,
-                    "name": "开屏广告",
-                    "fastQuery": true,
-                    "matchTime": 10000,
-                    "actionMaximum": 1,
-                    "resetMatch": "app",
-                    "excludeActivityIds": [
+                    key: 0,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    excludeActivityIds: [
                         "com.tencent.mobileqq.activity.ChatActivity",
-                        "com.tencent.mobileqq.search.activity.UniteSearchActivity"
+                        "com.tencent.mobileqq.search.activity.UniteSearchActivity",
                     ],
-                    "rules": {
-                        "excludeMatches": "[vid=\"chat_item_content_layout\"]",
-                        "matches": "TextView[text^=\"跳过\"][text.length<=10][vid!=\"title\"]"
+                    rules: {
+                        excludeMatches: "[vid=\"chat_item_content_layout\"]",
+                        matches: "TextView[text^=\"跳过\"][text.length<=10][vid!=\"title\"]",
                     },
-                    "snapshotUrls": [
+                    snapshotUrls: [
                         "https://i.gkd.li/i/13062244",
                         "https://i.gkd.li/i/13093155",
                         "https://i.gkd.li/i/13207731",
                         "https://i.gkd.li/i/13217807",
                         "https://i.gkd.li/i/13856647",
-                        "https://i.gkd.li/i/13868177"
+                        "https://i.gkd.li/i/13868177",
                     ],
-                    "order": -10
+                    order: -10,
                 },
                 {
-                    "key": 11,
-                    "name": "功能类-自动查看原图",
-                    "desc": "查看图片时自动点击原图",
-                    "rules": [
+                    key: 11,
+                    name: "功能类-自动查看原图",
+                    desc: "查看图片时自动点击原图",
+                    rules: [
                         {
-                            "fastQuery": true,
-                            "activityIds": "com.tencent.richframework.gallery.QQGalleryActivity",
-                            "matches": "[text^=\"查看原图\"]",
-                            "snapshotUrls": "https://i.gkd.li/i/14757735"
-                        }
+                            fastQuery: true,
+                            activityIds: "com.tencent.richframework.gallery.QQGalleryActivity",
+                            matches: "[text^=\"查看原图\"]",
+                            snapshotUrls: "https://i.gkd.li/i/14757735",
+                        },
                     ],
-                    "enable": true
+                    enable: true,
                 },
                 {
-                    "key": 13,
-                    "name": "开屏广告-QQ小程序开屏广告",
-                    "desc": "点击右下角跳过",
-                    "actionMaximum": 1,
-                    "activityIds": [
+                    key: 13,
+                    name: "开屏广告-QQ小程序开屏广告",
+                    desc: "点击右下角跳过",
+                    actionMaximum: 1,
+                    activityIds: [
                         "com.tencent.mobileqq.mini.appbrand.ui.AppBrandUI",
-                        "com.tencent.mobileqq.activity.miniaio.MiniChatActivity"
+                        "com.tencent.mobileqq.activity.miniaio.MiniChatActivity",
                     ],
-                    "rules": [
+                    rules: [
                         {
-                            "matches": [
+                            matches: [
                                 "[text=\"广告\"][visibleToUser=true]",
-                                "[text=\"跳过\"][visibleToUser=true]"
+                                "[text=\"跳过\"][visibleToUser=true]",
                             ],
-                            "snapshotUrls": [
+                            snapshotUrls: [
                                 "https://i.gkd.li/i/12877215",
                                 "https://i.gkd.li/i/12919195",
-                                "https://i.gkd.li/i/15130235"
-                            ]
-                        }
+                                "https://i.gkd.li/i/15130235",
+                            ],
+                        },
                     ],
-                    "order": -10
-                }
-            ]
-        }
-    ]
+                    order: -10,
+                },
+            ],
+        },
+    ],
 }
