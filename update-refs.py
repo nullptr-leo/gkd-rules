@@ -57,7 +57,7 @@ for filename in os.listdir('3rdparty'):
                 rule['apps'][i]['groups'] = list(filter(lambda x: all(word not in x['name'] and (word not in x['desc'] if 'desc' in x else True) for word in words), rule['apps'][i]['groups']))
 
             output_path = os.path.join('rules', filename)
-            with open(output_path, 'w', encoding='utf-8') as norm_file:
+            with open(output_path, 'w', encoding='utf-8', newline='\n') as norm_file:
                 json.dump(rule, norm_file, indent=4, ensure_ascii=False)
 
             with open(extra_cmd_path, 'a', encoding='utf-8') as extra_file:

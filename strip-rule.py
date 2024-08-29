@@ -23,7 +23,7 @@ with open(rule_path, 'r', encoding='utf-8') as file:
     app_list_strip = list(filter(lambda x: x['id'] not in strip_list, app_list))
     rule['apps'] = app_list_strip
 
-    with open(rule_strip_path, 'w', encoding='utf-8') as strip_file:
+    with open(rule_strip_path, 'w', encoding='utf-8', newline='\n') as strip_file:
         json.dump(rule, strip_file, indent=4, ensure_ascii=False)
 
     with open(extra_cmd_path, 'w', encoding='utf-8') as extra_file:
