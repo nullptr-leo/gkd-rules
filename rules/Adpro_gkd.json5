@@ -62,7 +62,115 @@
                     enable: false,
                 },
                 {
+                    id: "org.telegram.messenger",
+                    enable: false,
+                },
+                {
+                    id: "com.aistra.hail",
+                    enable: false,
+                },
+                {
+                    id: "com.heyanle.easybangumi4",
+                    enable: false,
+                },
+                {
+                    id: "com.perol.pixez",
+                    enable: false,
+                },
+                {
+                    id: "com.perol.play.pixez",
+                    enable: false,
+                },
+                {
+                    id: "com.magicalstory.videos",
+                    enable: false,
+                },
+                {
+                    id: "com.magicalstory.installer",
+                    enable: false,
+                },
+                {
+                    id: "com.guozhigq.pilipala",
+                    enable: false,
+                },
+                {
+                    id: "com.salt.music",
+                    enable: false,
+                },
+                {
+                    id: "com.xuncorp.qinalt.music",
+                    enable: false,
+                },
+                {
+                    id: "com.github.wgh136.pica_comic",
+                    enable: false,
+                },
+                {
+                    id: "com.yenaly.han1meviewer",
+                    enable: false,
+                },
+                {
+                    id: "ru.zdevs.zarchiver",
+                    enable: false,
+                },
+                {
+                    id: "ru.zdevs.zarchiver.pro",
+                    enable: false,
+                },
+                {
+                    id: "me.zhanghai.android.files",
+                    enable: false,
+                },
+                {
+                    id: "com.xjcheng.musictageditor",
+                    enable: false,
+                },
+                {
+                    id: "com.lalilu.lmusic",
+                    enable: false,
+                },
+                {
+                    id: "com.ktls.fileinfo",
+                    enable: false,
+                },
+                {
+                    id: "idm.internet.download.manager",
+                    enable: false,
+                },
+                {
+                    id: "idm.internet.download.manager.plus",
+                    enable: false,
+                },
+                {
+                    id: "com.mxtech.videoplayer",
+                    enable: false,
+                },
+                {
+                    id: "com.mxtech.videoplayer.pro",
+                    enable: false,
+                },
+                {
+                    id: "com.github.kr328.clash",
+                    enable: false,
+                },
+                {
                     id: "com.x8bit.bitwarden",
+                    enable: false,
+                },
+                {
+                    id: "org.localsend.localsend_app",
+                    enable: false,
+                },
+                {
+                    id: "moe.shizuku.privileged.api",
+                    enable: false,
+                },
+                {
+                    id: "com.ktls.automation",
+                    enable: false,
+                },
+                {
+                    id: "com.deepl.mobiletranslator",
                     enable: false,
                 },
                 {
@@ -70,7 +178,123 @@
                     enable: false,
                 },
                 {
+                    id: "me.tasy5kg.cutegif",
+                    enable: false,
+                },
+                {
                     id: "com.absinthe.libchecker",
+                    enable: false,
+                },
+                {
+                    id: "com.github.metacubex.clash.meta",
+                    enable: false,
+                },
+                {
+                    id: "io.github.jd1378.otphelper",
+                    enable: false,
+                },
+                {
+                    id: "com.valvesoftware.android.steam.community",
+                    enable: false,
+                },
+                {
+                    id: "io.legado.app.release",
+                    enable: false,
+                },
+                {
+                    id: "com.getsurfboard",
+                    enable: false,
+                },
+                {
+                    id: "moe.nb4a",
+                    enable: false,
+                },
+                {
+                    id: "com.v2ray.ang",
+                    enable: false,
+                },
+                {
+                    id: "com.xiaoyv.bangumi",
+                    enable: false,
+                },
+                {
+                    id: "com.funny.translation",
+                    enable: false,
+                },
+                {
+                    id: "com.looker.droidify",
+                    enable: false,
+                },
+                {
+                    id: "app.eleven.com.fastfiletransfer",
+                    enable: false,
+                },
+                {
+                    id: "com.idaodan.clean.master",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.agc.gcam84",
+                    enable: false,
+                },
+                {
+                    id: "com.wsw.cospa",
+                    enable: false,
+                },
+                {
+                    id: "app.mihon",
+                    enable: false,
+                },
+                {
+                    id: "com.rosan.installer.x",
+                    enable: false,
+                },
+                {
+                    id: "app.rikka.savecopy",
+                    enable: false,
+                },
+                {
+                    id: "com.rosan.dhizuku",
+                    enable: false,
+                },
+                {
+                    id: "com.rosan.accounts",
+                    enable: false,
+                },
+                {
+                    id: "com.dv.adm",
+                    enable: false,
+                },
+                {
+                    id: "com.assistant.ongoingclear",
+                    enable: false,
+                },
+                {
+                    id: "org.koitharu.kotatsu",
+                    enable: false,
+                },
+                {
+                    id: "me.ash.reader",
+                    enable: false,
+                },
+                {
+                    id: "com.huanchengfly.tieba.post",
+                    enable: false,
+                },
+                {
+                    id: "com.example.c001apk",
+                    enable: false,
+                },
+                {
+                    id: "dev.anilbeesetti.nextplayer",
+                    enable: false,
+                },
+                {
+                    id: "org.kde.kdeconnect_tp",
+                    enable: false,
+                },
+                {
+                    id: "xyz.adproqwq.GKDTool",
                     enable: false,
                 },
                 {
@@ -78,11 +302,87 @@
                     enable: false,
                 },
                 {
+                    id: "xyz.nextalone.nagram",
+                    enable: false,
+                },
+                {
+                    id: "com.openai.chatgpt",
+                    enable: false,
+                },
+                {
+                    id: "org.telegram.group",
+                    enable: false,
+                },
+                {
+                    id: "com.android.chrome",
+                    enable: false,
+                },
+                {
                     id: "com.xunmeng.pinduoduo",
                     enable: false,
                 },
                 {
+                    id: "com.xy.td",
+                    enable: false,
+                },
+                {
+                    id: "com.bug.hookvip",
+                    enable: false,
+                },
+                {
+                    id: "one.yufz.hmspush",
+                    enable: false,
+                },
+                {
+                    id: "io.github.huskydg.magisk",
+                    enable: false,
+                },
+                {
+                    id: "xzr.konabess",
+                    enable: false,
+                },
+                {
+                    id: "org.lsposed.manager",
+                    enable: false,
+                },
+                {
                     id: "com.microsoft.office.officehub",
+                    enable: false,
+                },
+                {
+                    id: "io.github.qauxv",
+                    enable: false,
+                },
+                {
+                    id: "com.rezvorck.tiktokplugin",
+                    enable: false,
+                },
+                {
+                    id: "com.github.tianma8023.xposed.smscode",
+                    enable: false,
+                },
+                {
+                    id: "Han.GJZS",
+                    enable: false,
+                },
+                {
+                    id: "org.adblockplus.adblockplussbrowser",
+                    enable: false,
+                },
+                {
+                    id: "com.viewblocker.jrsen",
+                    enable: false,
+                },
+                {
+                    id: "com.tsng.hidemyapplist",
+                    enable: false,
+                },
+                {
+                    id: "com.pittvandewitt.wavelet",
+                    enable: false,
+                },
+                {
+                    id: "one.yufz.onebox",
                     enable: false,
                 },
                 {
@@ -138,11 +438,103 @@
                     enable: false,
                 },
                 {
+                    id: "com.mfashiongallery.emag",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.cameraassistant",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.galaxyraw",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.appbooster",
+                    enable: false,
+                },
+                {
+                    id: "com.android.samsung.utilityapp",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.goodlock",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.thermalguardian",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.calendar",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.notes",
+                    enable: false,
+                },
+                {
+                    id: "com.jv.samsungeshop",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.sreminder",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.watchmanager",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.reminder",
+                    enable: false,
+                },
+                {
+                    id: "com.adguard.android.contentblocker",
+                    enable: false,
+                },
+                {
+                    id: "com.sec.android.app.voicenote",
+                    enable: false,
+                },
+                {
+                    id: "com.futuremark.dmandroid.application",
+                    enable: false,
+                },
+                {
+                    id: "com.sec.android.app.clockpackage",
+                    enable: false,
+                },
+                {
+                    id: "mark.via",
+                    enable: false,
+                },
+                {
+                    id: "mark.via.gp",
+                    enable: false,
+                },
+                {
+                    id: "com.mmbox.xbrowser",
+                    enable: false,
+                },
+                {
+                    id: "com.mmbox.xbrowser.pro",
+                    enable: false,
+                },
+                {
+                    id: "com.mycompany.app.soulbrowser",
+                    enable: false,
+                },
+                {
                     id: "info.muge.appshare",
                     enable: false,
                 },
                 {
                     id: "com.tencent.mobileqq",
+                    enable: false,
+                },
+                {
+                    id: "com.qiyi.video",
                     enable: false,
                 },
                 {
@@ -183,6 +575,18 @@
                 },
                 {
                     id: "com.miui.player",
+                    enable: true,
+                },
+                {
+                    id: "com.tencent.southpole.appstore",
+                    enable: true,
+                },
+                {
+                    id: "com.heytap.browser",
+                    enable: true,
+                },
+                {
+                    id: "com.heytap.themestore",
                     enable: true,
                 },
             ],
@@ -229,7 +633,115 @@
                     enable: false,
                 },
                 {
+                    id: "org.telegram.messenger",
+                    enable: false,
+                },
+                {
+                    id: "com.aistra.hail",
+                    enable: false,
+                },
+                {
+                    id: "com.heyanle.easybangumi4",
+                    enable: false,
+                },
+                {
+                    id: "com.perol.pixez",
+                    enable: false,
+                },
+                {
+                    id: "com.perol.play.pixez",
+                    enable: false,
+                },
+                {
+                    id: "com.magicalstory.videos",
+                    enable: false,
+                },
+                {
+                    id: "com.magicalstory.installer",
+                    enable: false,
+                },
+                {
+                    id: "com.guozhigq.pilipala",
+                    enable: false,
+                },
+                {
+                    id: "com.salt.music",
+                    enable: false,
+                },
+                {
+                    id: "com.xuncorp.qinalt.music",
+                    enable: false,
+                },
+                {
+                    id: "com.github.wgh136.pica_comic",
+                    enable: false,
+                },
+                {
+                    id: "com.yenaly.han1meviewer",
+                    enable: false,
+                },
+                {
+                    id: "ru.zdevs.zarchiver",
+                    enable: false,
+                },
+                {
+                    id: "ru.zdevs.zarchiver.pro",
+                    enable: false,
+                },
+                {
+                    id: "me.zhanghai.android.files",
+                    enable: false,
+                },
+                {
+                    id: "com.xjcheng.musictageditor",
+                    enable: false,
+                },
+                {
+                    id: "com.lalilu.lmusic",
+                    enable: false,
+                },
+                {
+                    id: "com.ktls.fileinfo",
+                    enable: false,
+                },
+                {
+                    id: "idm.internet.download.manager",
+                    enable: false,
+                },
+                {
+                    id: "idm.internet.download.manager.plus",
+                    enable: false,
+                },
+                {
+                    id: "com.mxtech.videoplayer",
+                    enable: false,
+                },
+                {
+                    id: "com.mxtech.videoplayer.pro",
+                    enable: false,
+                },
+                {
+                    id: "com.github.kr328.clash",
+                    enable: false,
+                },
+                {
                     id: "com.x8bit.bitwarden",
+                    enable: false,
+                },
+                {
+                    id: "org.localsend.localsend_app",
+                    enable: false,
+                },
+                {
+                    id: "moe.shizuku.privileged.api",
+                    enable: false,
+                },
+                {
+                    id: "com.ktls.automation",
+                    enable: false,
+                },
+                {
+                    id: "com.deepl.mobiletranslator",
                     enable: false,
                 },
                 {
@@ -237,7 +749,123 @@
                     enable: false,
                 },
                 {
+                    id: "me.tasy5kg.cutegif",
+                    enable: false,
+                },
+                {
                     id: "com.absinthe.libchecker",
+                    enable: false,
+                },
+                {
+                    id: "com.github.metacubex.clash.meta",
+                    enable: false,
+                },
+                {
+                    id: "io.github.jd1378.otphelper",
+                    enable: false,
+                },
+                {
+                    id: "com.valvesoftware.android.steam.community",
+                    enable: false,
+                },
+                {
+                    id: "io.legado.app.release",
+                    enable: false,
+                },
+                {
+                    id: "com.getsurfboard",
+                    enable: false,
+                },
+                {
+                    id: "moe.nb4a",
+                    enable: false,
+                },
+                {
+                    id: "com.v2ray.ang",
+                    enable: false,
+                },
+                {
+                    id: "com.xiaoyv.bangumi",
+                    enable: false,
+                },
+                {
+                    id: "com.funny.translation",
+                    enable: false,
+                },
+                {
+                    id: "com.looker.droidify",
+                    enable: false,
+                },
+                {
+                    id: "app.eleven.com.fastfiletransfer",
+                    enable: false,
+                },
+                {
+                    id: "com.idaodan.clean.master",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.agc.gcam84",
+                    enable: false,
+                },
+                {
+                    id: "com.wsw.cospa",
+                    enable: false,
+                },
+                {
+                    id: "app.mihon",
+                    enable: false,
+                },
+                {
+                    id: "com.rosan.installer.x",
+                    enable: false,
+                },
+                {
+                    id: "app.rikka.savecopy",
+                    enable: false,
+                },
+                {
+                    id: "com.rosan.dhizuku",
+                    enable: false,
+                },
+                {
+                    id: "com.rosan.accounts",
+                    enable: false,
+                },
+                {
+                    id: "com.dv.adm",
+                    enable: false,
+                },
+                {
+                    id: "com.assistant.ongoingclear",
+                    enable: false,
+                },
+                {
+                    id: "org.koitharu.kotatsu",
+                    enable: false,
+                },
+                {
+                    id: "me.ash.reader",
+                    enable: false,
+                },
+                {
+                    id: "com.huanchengfly.tieba.post",
+                    enable: false,
+                },
+                {
+                    id: "com.example.c001apk",
+                    enable: false,
+                },
+                {
+                    id: "dev.anilbeesetti.nextplayer",
+                    enable: false,
+                },
+                {
+                    id: "org.kde.kdeconnect_tp",
+                    enable: false,
+                },
+                {
+                    id: "xyz.adproqwq.GKDTool",
                     enable: false,
                 },
                 {
@@ -245,11 +873,87 @@
                     enable: false,
                 },
                 {
+                    id: "xyz.nextalone.nagram",
+                    enable: false,
+                },
+                {
+                    id: "com.openai.chatgpt",
+                    enable: false,
+                },
+                {
+                    id: "org.telegram.group",
+                    enable: false,
+                },
+                {
+                    id: "com.android.chrome",
+                    enable: false,
+                },
+                {
                     id: "com.xunmeng.pinduoduo",
                     enable: false,
                 },
                 {
+                    id: "com.xy.td",
+                    enable: false,
+                },
+                {
+                    id: "com.bug.hookvip",
+                    enable: false,
+                },
+                {
+                    id: "one.yufz.hmspush",
+                    enable: false,
+                },
+                {
+                    id: "io.github.huskydg.magisk",
+                    enable: false,
+                },
+                {
+                    id: "xzr.konabess",
+                    enable: false,
+                },
+                {
+                    id: "org.lsposed.manager",
+                    enable: false,
+                },
+                {
                     id: "com.microsoft.office.officehub",
+                    enable: false,
+                },
+                {
+                    id: "io.github.qauxv",
+                    enable: false,
+                },
+                {
+                    id: "com.rezvorck.tiktokplugin",
+                    enable: false,
+                },
+                {
+                    id: "com.github.tianma8023.xposed.smscode",
+                    enable: false,
+                },
+                {
+                    id: "Han.GJZS",
+                    enable: false,
+                },
+                {
+                    id: "org.adblockplus.adblockplussbrowser",
+                    enable: false,
+                },
+                {
+                    id: "com.viewblocker.jrsen",
+                    enable: false,
+                },
+                {
+                    id: "com.tsng.hidemyapplist",
+                    enable: false,
+                },
+                {
+                    id: "com.pittvandewitt.wavelet",
+                    enable: false,
+                },
+                {
+                    id: "one.yufz.onebox",
                     enable: false,
                 },
                 {
@@ -302,6 +1006,94 @@
                 },
                 {
                     id: "com.duokan.phone.remotecontroller",
+                    enable: false,
+                },
+                {
+                    id: "com.mfashiongallery.emag",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.cameraassistant",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.galaxyraw",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.appbooster",
+                    enable: false,
+                },
+                {
+                    id: "com.android.samsung.utilityapp",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.goodlock",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.thermalguardian",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.calendar",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.notes",
+                    enable: false,
+                },
+                {
+                    id: "com.jv.samsungeshop",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.sreminder",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.watchmanager",
+                    enable: false,
+                },
+                {
+                    id: "com.samsung.android.app.reminder",
+                    enable: false,
+                },
+                {
+                    id: "com.adguard.android.contentblocker",
+                    enable: false,
+                },
+                {
+                    id: "com.sec.android.app.voicenote",
+                    enable: false,
+                },
+                {
+                    id: "com.futuremark.dmandroid.application",
+                    enable: false,
+                },
+                {
+                    id: "com.sec.android.app.clockpackage",
+                    enable: false,
+                },
+                {
+                    id: "mark.via",
+                    enable: false,
+                },
+                {
+                    id: "mark.via.gp",
+                    enable: false,
+                },
+                {
+                    id: "com.mmbox.xbrowser",
+                    enable: false,
+                },
+                {
+                    id: "com.mmbox.xbrowser.pro",
+                    enable: false,
+                },
+                {
+                    id: "com.mycompany.app.soulbrowser",
                     enable: false,
                 },
                 {
@@ -1077,6 +1869,78 @@
                             ],
                             exampleUrls: "https://m.gkd.li/57941037/a219a480-c0a3-4064-832d-533f66995fed",
                             snapshotUrls: "https://i.gkd.li/i/15158788",
+                        },
+                    ],
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.qiyi.video",
+            name: "爱奇艺",
+            groups: [
+                {
+                    key: 0,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: "@LinearLayout > [text=\"关闭\"]",
+                    snapshotUrls: [
+                        "https://i.gkd.li/i/13160866",
+                        "https://i.gkd.li/i/13379565",
+                    ],
+                    order: -10,
+                },
+                {
+                    key: 1,
+                    name: "未分类-青少年弹窗",
+                    fastQuery: true,
+                    activityIds: "org.qiyi.android.video.MainActivity",
+                    rules: [
+                        {
+                            matches: "[id=\"com.qiyi.video:id/confirm_btn\"][text=\"我知道了\"]",
+                            exampleUrls: "https://m.gkd.li/6328439/d69e92f8-8304-4296-909a-11730e408a16",
+                            snapshotUrls: "https://i.gkd.li/i/13546555",
+                        },
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 2,
+                    name: "未分类-我的-顶部广告",
+                    fastQuery: true,
+                    activityIds: "org.qiyi.android.video.MainActivity",
+                    snapshotUrls: "https://i.gkd.li/i/12495050",
+                    rules: [
+                        "@[id=\"com.qiyi.video:id/unused_res_a\"][clickable=true] > [id=\"com.qiyi.video:id/close\"]",
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 3,
+                    name: "未分类-开启推送通知弹窗",
+                    fastQuery: true,
+                    activityIds: "org.qiyi.android.video.MainActivity",
+                    snapshotUrls: "https://i.gkd.li/i/12838152",
+                    rules: [
+                        "[id=\"com.qiyi.video:id/cancel_btn\"][text=\"暂时不要\"]",
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 5,
+                    name: "未分类-播放页-插入广告",
+                    desc: "视频播放前或播放中途插入的广告。默认关闭。",
+                    activityIds: "org.iqiyi.video.activity.PlayerActivity",
+                    rules: [
+                        {
+                            matches: "@RelativeLayout[id=\"com.qiyi.video:id/unused_res_a\"] > TextView[text=\"关闭广告\"]",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/13536669",
+                                "https://i.gkd.li/i/13536703",
+                            ],
                         },
                     ],
                     enable: false,
@@ -2837,6 +3701,20 @@
             groups: [],
         },
         {
+            id: "com.miui.virtualsim",
+            name: "全球上网",
+            groups: [
+                {
+                    key: 1,
+                    name: "未分类-广告弹窗",
+                    activityIds: "com.mobile.businesshall.ui.common.RecommendPopupActivity",
+                    rules: "[id=\"com.miui.virtualsim:id/img_close_btn\"]",
+                    snapshotUrls: "https://i.gkd.li/i/13238467",
+                    enable: false,
+                },
+            ],
+        },
+        {
             id: "com.lbe.security.miui",
             name: "权限管理服务",
             groups: [],
@@ -2913,29 +3791,6 @@
                             ],
                             matches: "[vid=\"buttons_panel\"]",
                             snapshotUrls: "https://i.gkd.li/i/14969116",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.google.android.packageinstaller",
-            name: "软件包安装程序",
-            groups: [
-                {
-                    key: 2,
-                    name: "功能类-安装未知应用设置",
-                    fastQuery: true,
-                    activityIds: "com.android.packageinstaller.InstallStaging",
-                    rules: [
-                        {
-                            key: 0,
-                            matches: [
-                                "[text*=\"禁止您的手机安装来自此来源的未知应用\"]",
-                                "[text=\"设置\"]",
-                            ],
-                            snapshotUrls: "https://i.gkd.li/i/14080242",
                         },
                     ],
                     enable: false,
@@ -3437,6 +4292,28 @@
                             matches: "@RelativeLayout[clickable=true] + * >3 [text=\"立即预约\"]",
                             exampleUrls: "https://m.gkd.li/57941037/c8131a06-837a-4c42-9a70-9e8a7fe21334",
                             snapshotUrls: "https://i.gkd.li/i/14567294",
+                        },
+                    ],
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.android.contacts",
+            name: "通讯录与拨号",
+            groups: [
+                {
+                    key: 1,
+                    name: "全屏广告-广告弹窗",
+                    desc: "点击关闭",
+                    rules: [
+                        {
+                            key: 0,
+                            fastQuery: true,
+                            activityIds: "com.mobile.businesshall.ui.common.RecommendPopupActivity",
+                            matches: "[vid=\"img_close_btn\"][clickable=true][visibleToUser=true]",
+                            exampleUrls: "https://m.gkd.li/57941037/a3ad68fc-4a2e-45e2-87d3-97ece1fceaa4",
+                            snapshotUrls: "https://i.gkd.li/i/14321032",
                         },
                     ],
                     enable: false,
@@ -4295,6 +5172,33 @@
             ],
         },
         {
+            id: "com.android.documentsui",
+            name: "文件",
+            groups: [
+                {
+                    key: 1,
+                    name: "功能类-允许第三方应用访问文件夹",
+                    activityIds: "com.android.documentsui.picker.PickActivity",
+                    rules: "[text=\"取消\"] + [text=\"允许\"]",
+                    snapshotUrls: "https://i.gkd.li/i/13801468",
+                    enable: false,
+                },
+                {
+                    key: 2,
+                    fastQuery: true,
+                    name: "功能类-使用此文件夹",
+                    rules: [
+                        {
+                            activityIds: "com.android.documentsui.picker.PickActivity",
+                            matches: "[text=\"使用此文件夹\"]",
+                            snapshotUrls: "https://i.gkd.li/i/13916082",
+                        },
+                    ],
+                    enable: false,
+                },
+            ],
+        },
+        {
             id: "com.miui.securityadd",
             name: "系统服务组件",
             groups: [
@@ -4406,6 +5310,41 @@
                             matches: "[text=\"您对小红书的评分如何?\"]",
                             exampleUrls: "https://m.gkd.li/57941037/9727815d-b881-4904-bbdc-19ade426977e",
                             snapshotUrls: "https://i.gkd.li/i/15281458",
+                        },
+                    ],
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.android.browser",
+            name: "小米浏览器",
+            groups: [
+                {
+                    key: 1,
+                    name: "未分类-主页信息流广告",
+                    fastQuery: true,
+                    activityIds: [
+                        "com.android.browser.BrowserActivity",
+                        "com.android.browser.flow.view.FeedbackDialog",
+                    ],
+                    rules: [
+                        {
+                            key: 0,
+                            matches: "@[id!=null][desc=\"负反馈\"][visibleToUser=true] -n * > * > [text=\"广告\"]",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/12894221",
+                                "https://i.gkd.li/i/12893649",
+                            ],
+                        },
+                        {
+                            preKeys: 0,
+                            key: 1,
+                            matches: "@FrameLayout > ViewGroup > [text=\"不感兴趣\"]",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/12894234",
+                                "https://i.gkd.li/i/13196059",
+                            ],
                         },
                     ],
                     enable: false,
@@ -4657,6 +5596,11 @@
                     enable: false,
                 },
             ],
+        },
+        {
+            id: "com.xiaomi.gamecenter.sdk.service",
+            name: "小米游戏服务",
+            groups: [],
         },
         {
             id: "com.xiaomi.youpin",
@@ -5020,6 +5964,88 @@
                             matches: "[id=\"com.unionpay:id/view_content_container\"] View[text=\"关闭按钮\"][clickable=true]",
                             snapshotUrls: "https://i.gkd.li/i/13848688",
                         },
+                    ],
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.cmbchina.ccd.pluto.cmbActivity",
+            name: "掌上生活",
+            groups: [
+                {
+                    key: 2,
+                    name: "全屏广告-首页弹窗广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    activityIds: [
+                        "com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2",
+                    ],
+                    rules: "[id=\"com.cmbchina.ccd.pluto.cmbActivity:id/lly_pop_shell\"] > [id=\"com.cmbchina.ccd.pluto.cmbActivity:id/img_cf_view_close\"]",
+                    snapshotUrls: [
+                        "https://i.gkd.li/i/12647000",
+                        "https://i.gkd.li/i/13360282",
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 3,
+                    name: "局部广告-右侧悬浮广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 2,
+                    resetMatch: "app",
+                    rules: [
+                        {
+                            name: "信用卡、我的页面",
+                            activityIds: [
+                                "com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2",
+                                "com.cmbchina.ccd.pluto.cmbActivity.secondNav",
+                            ],
+                            matches: "[id=\"com.cmbchina.ccd.pluto.cmbActivity:id/img_floating_ad_cmb\"] - [id=\"com.cmbchina.ccd.pluto.cmbActivity:id/img_close_floating_ad_cmb\"]",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/12647039",
+                                "https://i.gkd.li/i/12647052",
+                            ],
+                        },
+                        {
+                            name: "查账页面",
+                            activityIds: [
+                                "com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2",
+                                "com.cmbchina.ccd.pluto.cmbActivity.repaymentBillv3.billRepay",
+                                "com.cmbchina.ccd.pluto.cmbActivity.repaymentBillv3.billDetail.view",
+                            ],
+                            matches: "@[vid=\"img_cmb_drag_pendant_close\"] + [vid=\"img_cmb_drag_pendant_bg\"]",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/12647127",
+                                "https://i.gkd.li/i/14209121",
+                            ],
+                        },
+                        {
+                            name: "发现页",
+                            activityIds: "com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2",
+                            matches: "[id=\"com.cmbchina.ccd.pluto.cmbActivity:id/view_cat\"] + [id=\"com.cmbchina.ccd.pluto.cmbActivity:id/view_close\"]",
+                            snapshotUrls: "https://i.gkd.li/i/13402782",
+                        },
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 4,
+                    name: "通知提示-消息页面通知开关",
+                    desc: "点击x按钮，不开启系统通知",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    activityIds: [
+                        "com.cmbchina.ccd.pluto.cmbActivity.messagebox",
+                    ],
+                    rules: "[id=\"com.cmbchina.ccd.pluto.cmbActivity:id/btn_open_notify\"] + [id=\"com.cmbchina.ccd.pluto.cmbActivity:id/iv_delete\"]",
+                    snapshotUrls: [
+                        "https://i.gkd.li/i/12647068",
                     ],
                     enable: false,
                 },
@@ -5773,6 +6799,101 @@
                         {
                             matches: "@[id=\"com.greenpoint.android.mc10086.activity:id/close_img\"][desc=\"关闭\"] - RelativeLayout >(2) [text$=\"好评\"]",
                             snapshotUrls: "https://i.gkd.li/i/12662345",
+                        },
+                    ],
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.android.thememanager",
+            name: "主题壁纸",
+            groups: [
+                {
+                    key: 1,
+                    name: "局部广告-主题详情底部广告",
+                    desc: "注意如果使用 ADB 禁用了 MIUI 广告组件，点击此按钮会无反应，可关闭此规则，避免过多相同点击记录",
+                    fastQuery: true,
+                    rules: "[id=\"com.android.thememanager:id/ad_close_btn\"][visibleToUser=true]",
+                    snapshotUrls: "https://i.gkd.li/i/13227330",
+                    enable: false,
+                },
+                {
+                    key: 2,
+                    name: "全屏广告-弹窗广告",
+                    fastQuery: true,
+                    activityIds: [
+                        "com.android.thememanager.ThemeResourceTabActivity",
+                        "com.android.thememanager.ThemeResourceProxyTabActivity",
+                    ],
+                    rules: "ImageView[id=\"com.android.thememanager:id/cancel\"][desc=\"关闭\"]",
+                    snapshotUrls: [
+                        "https://i.gkd.li/i/13215038",
+                        "https://i.gkd.li/i/15286330",
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 3,
+                    name: "局部广告-右下角悬浮窗广告",
+                    desc: "点击关闭",
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
+                        {
+                            fastQuery: true,
+                            activityIds: [
+                                "com.android.thememanager.ThemeResourceTabActivity",
+                                "com.android.thememanager.ThemeResourceProxyTabActivity",
+                            ],
+                            matches: "[vid=\"close\"]",
+                            exampleUrls: "https://m.gkd.li/57941037/41ff6d56-e583-4e6e-9fb3-4efafaeedbd5",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/14722559",
+                                "https://i.gkd.li/i/15286334",
+                            ],
+                        },
+                    ],
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.android.vending",
+            name: "Google Play 商店",
+            groups: [
+                {
+                    key: 1,
+                    name: "通知提示-使用Points获得奖励弹窗",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    resetMatch: "app",
+                    actionMaximum: 1,
+                    activityIds: "com.google.android.finsky.activities.MainActivity",
+                    rules: "[text=\"使用 Google Play Points 获得奖励\"] +3 * > [text=\"以后再说\"]",
+                    snapshotUrls: "https://i.gkd.li/i/14151219",
+                    enable: false,
+                },
+                {
+                    key: 2,
+                    name: "全屏广告-[体验 Google Play Pass]弹窗",
+                    desc: "点击[以后再说]",
+                    fastQuery: true,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
+                        {
+                            position: {
+                                left: "width * 0.5",
+                                top: "width * 1.5",
+                            },
+                            activityIds: "com.google.android.finsky.activities.MainActivity",
+                            matches: "[text=\"体验 Google Play Pass，免费试用 1 个月\"]",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/14958783",
+                                "https://i.gkd.li/i/15286041",
+                            ],
                         },
                     ],
                     enable: false,

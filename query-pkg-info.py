@@ -11,8 +11,6 @@ from openpyxl import load_workbook
 
 # The XLSX to save local package info
 appinfo_path = 'pkg-info.xlsx'
-# Local query dict
-local_query_dict = { }
 
 # The proxy server
 proxy = 'socks5://127.0.0.1:8087'
@@ -24,29 +22,37 @@ USER_AGENT = '"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHT
 pkg_name = ''
 # The software name
 software_name = ''
+# The software dict list
+software_list = [ ]
 
-
-# Get app info from local 3rdparty rules
-def get_app_info_from_local(pkg_name):
-    # Load only first time
-    if len(local_query_dict) == 0:
-        for root, _, files in os.walk('rules'):
-            for filename in files:
-                file_path = os.path.join(root, filename)
-                if os.path.splitext(filename)[1] != '.json5':
-                    continue
-                print(f'Loading {file_path} ... ', end='', flush=True)
-                with open(file_path, 'r', encoding='utf-8') as file:
-                    rule = json.load(file)
-                    for item in rule['apps']:
-                        if 'name' in item and item['id'] not in local_query_dict:
-                            local_query_dict[item['id']] = item['name']
-                    print(f'Done')
-    # Query the current package
-    if pkg_name in local_query_dict:
-        return local_query_dict[pkg_name]
-    else:
-        return ''
+# Dump local package info
+def dump_local_app_info(workbook):
+    # Dump once
+    dump_dict = { }
+    for root, _, files in os.walk('rules'):
+        for filename in files:
+            file_path = os.path.join(root, filename)
+            if os.path.splitext(filename)[1] != '.json5':
+                continue
+            print(f'Loading {file_path} ... ', end='', flush=True)
+            with open(file_path, 'r', encoding='utf-8') as file:
+                rule = json.load(file)
+                for item in rule['apps']:
+                    pkg_name = item['id']
+                    if 'name' not in item or pkg_name in software_list:
+                        # No name defined or exist
+                        continue
+                    # Use the longer name
+                    app_name = item['name']
+                    if pkg_name not in dump_dict or len(app_name) > len(dump_dict[pkg_name]):
+                        dump_dict[pkg_name] = app_name
+                print(f'Done')
+    # Save to the local file
+    for key in dump_dict.keys():
+        last_row = worksheet.max_row + 1
+        data_to_append = [key, dump_dict[key]]
+        worksheet.append(data_to_append)
+    workbook.save(appinfo_path)
 
 # Get app info from xiaomi market
 def get_app_info_from_xiaomi_market(pkg_name):
@@ -171,8 +177,6 @@ def get_app_info_from_markets(pkg_name):
 
     # Get app info from markets one by one
     if not is_pkg_name_valid(software_name):
-        software_name = get_app_info_from_local(pkg_name)
-    if not is_pkg_name_valid(software_name):
         software_name = get_app_info_from_tencent_market(pkg_name)
     if not is_pkg_name_valid(software_name):
         software_name = get_app_info_from_coolapk_market(pkg_name)
@@ -217,11 +221,17 @@ if __name__ == '__main__':
         workbook = load_workbook(appinfo_path)
         worksheet = workbook.active
         for row in worksheet.iter_rows(min_row=1, max_col=2, values_only=True):
+            if row[0] not in software_list:
+                software_list.append(row[0])
             if row[0] == pkg_name and row[1] != '?':
                 software_name = row[1]
 
+        # If local specified
+        if pkg_name == 'local':
+            dump_local_app_info(workbook)
+            software_name = 'Done'
         # If not found, query from the Internet
-        if not software_name:
+        elif not software_name:
             print('Querying...')
             software_name = get_app_info_from_markets(pkg_name)
 
