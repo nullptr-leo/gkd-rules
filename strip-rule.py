@@ -1,4 +1,3 @@
-import execjs
 import json5 as json
 from openpyxl import load_workbook
 
@@ -23,7 +22,7 @@ except Exception as e:
     exit(-1)
 
 with open(rule_path, 'r', encoding='utf-8') as file:
-    rule = execjs.eval(file.read())
+    rule = json.load(file)
     app_list = rule['apps']
     app_list_strip = list(filter(lambda x: x['id'] not in strip_list, app_list))
     rule['apps'] = app_list_strip

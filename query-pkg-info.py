@@ -4,7 +4,6 @@ import re
 import sys
 import traceback
 import json5 as json
-import execjs
 
 from curl_cffi import requests
 from openpyxl import load_workbook
