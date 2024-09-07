@@ -1,7 +1,7 @@
 {
     id: 666,
     name: "AIsouler的GKD订阅",
-    version: 126,
+    version: 129,
     author: "AIsouler",
     globalGroups: [
         {
@@ -145,6 +145,54 @@
                     enable: false,
                 },
                 {
+                    id: "com.Twilight.tools",
+                    enable: false,
+                },
+                {
+                    id: "com.miui.securitymanager",
+                    enable: false,
+                },
+                {
+                    id: "com.android.settings",
+                    enable: false,
+                },
+                {
+                    id: "com.miui.creation",
+                    enable: false,
+                },
+                {
+                    id: "com.xiaomi.scanner",
+                    enable: false,
+                },
+                {
+                    id: "com.yozo.office",
+                    enable: false,
+                },
+                {
+                    id: "com.miui.video",
+                    enable: false,
+                },
+                {
+                    id: "com.xiaomi.wpslauncher",
+                    enable: false,
+                },
+                {
+                    id: "com.sevtinge.hyperceiler",
+                    enable: false,
+                },
+                {
+                    id: "com.dna.tools",
+                    enable: false,
+                },
+                {
+                    id: "flar2.devcheck",
+                    enable: false,
+                },
+                {
+                    id: "com.gstarmc.android",
+                    enable: false,
+                },
+                {
                     id: "com.miui.weather2",
                     enable: false,
                 },
@@ -230,6 +278,10 @@
                 },
                 {
                     id: "com.coolapk.market",
+                    enable: false,
+                },
+                {
+                    id: "com.mipay.wallet",
                     enable: false,
                 },
                 {
@@ -382,6 +434,54 @@
                 },
                 {
                     id: "com.tencent.tmgp.sgame",
+                    enable: false,
+                },
+                {
+                    id: "com.Twilight.tools",
+                    enable: false,
+                },
+                {
+                    id: "com.miui.securitymanager",
+                    enable: false,
+                },
+                {
+                    id: "com.android.settings",
+                    enable: false,
+                },
+                {
+                    id: "com.miui.creation",
+                    enable: false,
+                },
+                {
+                    id: "com.xiaomi.scanner",
+                    enable: false,
+                },
+                {
+                    id: "com.yozo.office",
+                    enable: false,
+                },
+                {
+                    id: "com.miui.video",
+                    enable: false,
+                },
+                {
+                    id: "com.xiaomi.wpslauncher",
+                    enable: false,
+                },
+                {
+                    id: "com.sevtinge.hyperceiler",
+                    enable: false,
+                },
+                {
+                    id: "com.dna.tools",
+                    enable: false,
+                },
+                {
+                    id: "flar2.devcheck",
+                    enable: false,
+                },
+                {
+                    id: "com.gstarmc.android",
                     enable: false,
                 },
                 {
@@ -1231,9 +1331,12 @@
                                 top: "width * 0.0805",
                             },
                             activityIds: "com.tencent.mobileqq.activity.SplashActivity",
-                            matches: "LinearLayout[childCount=4] > LinearLayout > FrameLayout > FrameLayout > @View[visibleToUser=true] <<n [vid=\"root\"]",
-                            exampleUrls: "https://m.gkd.li/57941037/940f4965-0058-4101-ab62-20d131e9c1d1",
-                            snapshotUrls: "https://i.gkd.li/i/14732983",
+                            matches: "LinearLayout[childCount=1] > FrameLayout[childCount=1] > FrameLayout[childCount=1] > @View[visibleToUser=true][childCount=0] <<n [vid=\"root\"]",
+                            exampleUrls: "https://e.gkd.li/438add53-c7cb-41e5-ab98-910f4570ea72",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/14732983",
+                                "https://i.gkd.li/i/16834757",
+                            ],
                         },
                         {
                             key: 1,
@@ -1391,9 +1494,12 @@
                     rules: [
                         {
                             activityIds: "com.ft.movie.project_speed.MainActivity",
-                            matches: "View[childCount=30] > View[childCount=2] > ImageView[clickable=true][visibleToUser=true][index=0]",
+                            matches: "View[childCount=29 || childCount=30] > View[childCount=2] > ImageView[clickable=true][visibleToUser=true][index=0]",
                             exampleUrls: "https://e.gkd.li/089c780e-e37a-4c25-a375-ba7f67b5ae9b",
-                            snapshotUrls: "https://i.gkd.li/i/16784443",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/16784443",
+                                "https://i.gkd.li/i/16797995",
+                            ],
                         },
                     ],
                     enable: false,
@@ -2221,21 +2327,6 @@
                     ],
                     enable: false,
                 },
-                {
-                    key: 11,
-                    name: "功能类-下单后自动领取吃货豆",
-                    desc: "点击[立即领]",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "me.ele.android.emagex.container.EMagexActivity",
-                            matches: "ViewGroup[childCount=6] > @ViewGroup[clickable=true][index=3] <<n [vid=\"id_magex_mist_view\"]",
-                            exampleUrls: "https://e.gkd.li/4eae2f9e-18c2-4302-b1dc-79db779a1e50",
-                            snapshotUrls: "https://i.gkd.li/i/16775881",
-                        },
-                    ],
-                    enable: false,
-                },
             ],
         },
         {
@@ -2524,11 +2615,15 @@
                         },
                         {
                             key: 2,
+                            fastQuery: true,
                             activityIds: [
                                 "com.jingdong.app.mall.MainFrameActivity",
                                 "com.jd.lib.jshop.jshop.JshopMainShopActivity",
                             ],
-                            excludeMatches: "ImageView[desc=\"关闭页面\"] - [text=\"优惠券\"]",
+                            excludeMatches: [
+                                "ImageView[desc=\"关闭页面\"] - [text=\"优惠券\"]",
+                                "TextView[text=\"退换/售后\"][id=null]",
+                            ],
                             matches: "[desc=\"关闭页面\" || desc=\"关闭按钮\"][clickable=true][visibleToUser=true]",
                             snapshotUrls: [
                                 "https://i.gkd.li/i/13241883",
@@ -2536,6 +2631,7 @@
                                 "https://i.gkd.li/i/13336847",
                                 "https://i.gkd.li/i/15416926",
                                 "https://i.gkd.li/i/15862131",
+                                "https://i.gkd.li/i/16818580",
                             ],
                         },
                     ],
@@ -2956,6 +3052,20 @@
                     ],
                     enable: false,
                 },
+                {
+                    key: 6,
+                    name: "全屏广告-游戏版本活动",
+                    rules: [
+                        {
+                            fastQuery: true,
+                            activityIds: "com.mihoyo.hyperion.main.popup.HomePopupDialogActivity",
+                            matches: "[vid=\"closeIv\"]",
+                            exampleUrls: "https://e.gkd.li/5c54c1cc-95ae-420d-b3af-37e8553a6327",
+                            snapshotUrls: "https://i.gkd.li/i/16818949",
+                        },
+                    ],
+                    enable: false,
+                },
             ],
         },
         {
@@ -3274,6 +3384,48 @@
             id: "com.tencent.wework",
             name: "企业微信",
             groups: [],
+        },
+        {
+            id: "com.mipay.wallet",
+            name: "钱包",
+            groups: [
+                {
+                    key: 0,
+                    name: "开屏广告",
+                    fastQuery: true,
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
+                        {
+                            matches: "[vid=\"skip\"][visibleToUser=true]",
+                            exampleUrls: "https://e.gkd.li/670b95f6-12d0-4787-9158-98ac52eb1641",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/16828031",
+                                "https://i.gkd.li/i/16828053",
+                            ],
+                        },
+                    ],
+                    order: -10,
+                },
+                {
+                    key: 1,
+                    name: "全屏广告-弹窗广告",
+                    matchTime: 10000,
+                    actionMaximum: 1,
+                    resetMatch: "app",
+                    rules: [
+                        {
+                            fastQuery: true,
+                            activityIds: "com.xiaomi.jr.app.MiFinanceActivity",
+                            matches: "FrameLayout >2 View[childCount=2] >2 View[childCount=2] > @ImageView[clickable=true][index=0][visibleToUser=true] <<n [vid=\"flutter_container\"]",
+                            exampleUrls: "https://e.gkd.li/9d8a1bb4-40ab-4312-8f5b-ef224e18720e",
+                            snapshotUrls: "https://i.gkd.li/i/16828039",
+                        },
+                    ],
+                    enable: false,
+                },
+            ],
         },
         {
             id: "com.lbe.security.miui",
@@ -3656,6 +3808,26 @@
                             activityIds: "com.taobao.android.detail.wrapper.activity.DetailActivity",
                             matches: "[vid=\"view_close\"]",
                             snapshotUrls: "https://i.gkd.li/i/15124094",
+                        },
+                    ],
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.taobao.htao.android",
+            name: "淘宝Lite",
+            groups: [
+                {
+                    key: 1,
+                    name: "局部广告-关闭顶部[打开淘宝]横幅",
+                    fastQuery: true,
+                    activityIds: "com.taobao.htao.android.detail.DetailActivity",
+                    rules: [
+                        {
+                            matches: "WebView[text$=\"天猫Tmall.com\"] >2 View[id=null][childCount=1] > @TextView[visibleToUser=true][text=\"\"] <<n [vid=\"detail_swipe_to_refresher\"]",
+                            exampleUrls: "https://e.gkd.li/661fca21-45e3-4e89-8ccc-b8bafb1bab02",
+                            snapshotUrls: "https://i.gkd.li/i/16842507",
                         },
                     ],
                     enable: false,
@@ -4322,6 +4494,37 @@
                     ],
                     enable: false,
                 },
+                {
+                    key: 23,
+                    name: "功能类-关闭猪手提示",
+                    desc: "点击[取消]",
+                    rules: [
+                        {
+                            fastQuery: true,
+                            activityIds: ".MainTabActivity",
+                            matches: [
+                                "[text^=\"猪手超话自动签到失败\"]",
+                                "[text=\"取消\"]",
+                            ],
+                            exampleUrls: "https://e.gkd.li/92e08aea-ae70-4ea8-be65-442f8e2e423d",
+                            snapshotUrls: "https://i.gkd.li/i/16827119",
+                        },
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 24,
+                    name: "功能类-关闭点赞时的验证",
+                    rules: [
+                        {
+                            activityIds: ".geetest.GeetCheckActivityForNet",
+                            matches: "Button[text^=\"关闭验证\"][clickable=true][visibleToUser=true]",
+                            exampleUrls: "https://e.gkd.li/7a8ed873-a6e8-4260-9f5c-3ff05d5788db",
+                            snapshotUrls: "https://i.gkd.li/i/16827853",
+                        },
+                    ],
+                    enable: false,
+                },
             ],
         },
         {
@@ -4589,6 +4792,20 @@
                     ],
                     enable: false,
                 },
+                {
+                    key: 36,
+                    name: "功能类-自动点击[查看原视频]",
+                    rules: [
+                        {
+                            fastQuery: true,
+                            activityIds: ".ui.chatting.gallery.ImageGalleryUI",
+                            matches: "[text^=\"查看原视频\"][visibleToUser=true]",
+                            exampleUrls: "https://e.gkd.li/5332aff9-05bb-4b44-b832-5e2d9b1c1270",
+                            snapshotUrls: "https://i.gkd.li/i/16833732",
+                        },
+                    ],
+                    enable: false,
+                },
             ],
         },
         {
@@ -4604,6 +4821,30 @@
                     resetMatch: "app",
                     rules: "[text=\"设置青少年模式\"] - LinearLayout >2 [text=\"我知道了\"]",
                     snapshotUrls: "https://i.gkd.li/i/13233668",
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.readunion.ireader",
+            name: "息壤阅读",
+            groups: [
+                {
+                    key: 1,
+                    name: "局部广告-悬浮广告",
+                    desc: "点击关闭",
+                    rules: [
+                        {
+                            fastQuery: true,
+                            matchTime: 10000,
+                            actionMaximum: 1,
+                            resetMatch: "app",
+                            activityIds: "com.union.modulehome.ui.MainActivity",
+                            matches: "[vid=\"iv_close\"][visibleToUser=true]",
+                            exampleUrls: "https://e.gkd.li/8192872f-b071-450b-aea7-ec3ce62fee95",
+                            snapshotUrls: "https://i.gkd.li/i/16790805",
+                        },
+                    ],
                     enable: false,
                 },
             ],
@@ -5643,6 +5884,28 @@
                             activityIds: "com.alipay.android.msp.ui.views.MspContainerActivity",
                             matches: "[id=\"com.alipay.android.app:id/rl_nav_bar\"] > [id=\"com.alipay.android.app:id/nav_right_textview\"]",
                             snapshotUrls: "https://i.gkd.li/i/14008852",
+                        },
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 13,
+                    name: "全屏广告-弹窗广告",
+                    desc: "点击X",
+                    rules: [
+                        {
+                            key: 0,
+                            activityIds: "com.eg.android.AlipayGphone.AlipayLogin",
+                            matches: "RelativeLayout[childCount=2][desc=\"全屏广告\"] ImageView[desc=\"关闭\"]",
+                            snapshotUrls: "https://i.gkd.li/i/14034152",
+                        },
+                        {
+                            key: 1,
+                            fastQuery: true,
+                            activityIds: "com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main",
+                            matches: "WebView > View > View > View > View > @TextView[clickable=true][visibleToUser=true][text=\"\"] <<n [id=\"com.alipay.mobile.nebula:id/h5_pc_container\"]",
+                            exampleUrls: "https://e.gkd.li/ebbd606a-0e21-4fc5-b0c3-49e4d87d065c",
+                            snapshotUrls: "https://i.gkd.li/i/16812751",
                         },
                     ],
                     enable: false,
