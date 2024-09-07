@@ -3,12 +3,16 @@ import pyperclip
 import re
 import sys
 import traceback
+import json5 as json
+import execjs
 
 from curl_cffi import requests
 from openpyxl import load_workbook
 
 # The XLSX to save local package info
 appinfo_path = 'pkg-info.xlsx'
+# Local query dict
+local_query_dict = { }
 
 # The proxy server
 proxy = 'socks5://127.0.0.1:8087'
@@ -21,6 +25,28 @@ pkg_name = ''
 # The software name
 software_name = ''
 
+
+# Get app info from local 3rdparty rules
+def get_app_info_from_local(pkg_name):
+    # Load only first time
+    if len(local_query_dict) == 0:
+        for root, _, files in os.walk('rules'):
+            for filename in files:
+                file_path = os.path.join(root, filename)
+                if os.path.splitext(filename)[1] != '.json5':
+                    continue
+                print(f'Loading {file_path} ... ', end='', flush=True)
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    rule = json.load(file)
+                    for item in rule['apps']:
+                        if 'name' in item and item['id'] not in local_query_dict:
+                            local_query_dict[item['id']] = item['name']
+                    print(f'Done')
+    # Query the current package
+    if pkg_name in local_query_dict:
+        return local_query_dict[pkg_name]
+    else:
+        return ''
 
 # Get app info from xiaomi market
 def get_app_info_from_xiaomi_market(pkg_name):
@@ -144,6 +170,8 @@ def get_app_info_from_markets(pkg_name):
     software_name = ''
 
     # Get app info from markets one by one
+    if not is_pkg_name_valid(software_name):
+        software_name = get_app_info_from_local(pkg_name)
     if not is_pkg_name_valid(software_name):
         software_name = get_app_info_from_tencent_market(pkg_name)
     if not is_pkg_name_valid(software_name):
