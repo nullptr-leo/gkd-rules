@@ -42,26 +42,6 @@
                     enable: false,
                 },
                 {
-                    id: "mark.via",
-                    enable: false,
-                },
-                {
-                    id: "mark.via.gp",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser.pro",
-                    enable: false,
-                },
-                {
-                    id: "com.mycompany.app.soulbrowser",
-                    enable: false,
-                },
-                {
                     id: "com.tencent.mobileqq",
                     enable: false,
                 },
@@ -114,26 +94,6 @@
                 },
                 {
                     id: "li.songe.gkd",
-                    enable: false,
-                },
-                {
-                    id: "mark.via",
-                    enable: false,
-                },
-                {
-                    id: "mark.via.gp",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser.pro",
-                    enable: false,
-                },
-                {
-                    id: "com.mycompany.app.soulbrowser",
                     enable: false,
                 },
             ],
@@ -209,26 +169,6 @@
                     id: "li.songe.gkd",
                     enable: false,
                 },
-                {
-                    id: "mark.via",
-                    enable: false,
-                },
-                {
-                    id: "mark.via.gp",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser.pro",
-                    enable: false,
-                },
-                {
-                    id: "com.mycompany.app.soulbrowser",
-                    enable: false,
-                },
             ],
         },
         {
@@ -284,26 +224,6 @@
                     id: "li.songe.gkd",
                     enable: false,
                 },
-                {
-                    id: "mark.via",
-                    enable: false,
-                },
-                {
-                    id: "mark.via.gp",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser.pro",
-                    enable: false,
-                },
-                {
-                    id: "com.mycompany.app.soulbrowser",
-                    enable: false,
-                },
             ],
         },
         {
@@ -355,26 +275,6 @@
                 },
                 {
                     id: "li.songe.gkd",
-                    enable: false,
-                },
-                {
-                    id: "mark.via",
-                    enable: false,
-                },
-                {
-                    id: "mark.via.gp",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser.pro",
-                    enable: false,
-                },
-                {
-                    id: "com.mycompany.app.soulbrowser",
                     enable: false,
                 },
             ],
@@ -432,26 +332,6 @@
                     id: "li.songe.gkd",
                     enable: false,
                 },
-                {
-                    id: "mark.via",
-                    enable: false,
-                },
-                {
-                    id: "mark.via.gp",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser.pro",
-                    enable: false,
-                },
-                {
-                    id: "com.mycompany.app.soulbrowser",
-                    enable: false,
-                },
             ],
         },
         {
@@ -506,26 +386,6 @@
                     id: "li.songe.gkd",
                     enable: false,
                 },
-                {
-                    id: "mark.via",
-                    enable: false,
-                },
-                {
-                    id: "mark.via.gp",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser.pro",
-                    enable: false,
-                },
-                {
-                    id: "com.mycompany.app.soulbrowser",
-                    enable: false,
-                },
             ],
         },
         {
@@ -578,26 +438,6 @@
                 },
                 {
                     id: "li.songe.gkd",
-                    enable: false,
-                },
-                {
-                    id: "mark.via",
-                    enable: false,
-                },
-                {
-                    id: "mark.via.gp",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser",
-                    enable: false,
-                },
-                {
-                    id: "com.mmbox.xbrowser.pro",
-                    enable: false,
-                },
-                {
-                    id: "com.mycompany.app.soulbrowser",
                     enable: false,
                 },
             ],

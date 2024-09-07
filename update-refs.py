@@ -26,6 +26,7 @@ if os.path.exists(extra_cmd_path):
 # load pkg defs
 strip_list = [ ]
 allow_list = [ ]
+written_list = [ ]
 workbook = load_workbook('pkg-info.xlsx')
 worksheet = workbook.active
 for row in worksheet.iter_rows(min_row=1, max_col=3, values_only=True):
@@ -68,6 +69,13 @@ for filename in os.listdir('3rdparty'):
 
             with open(extra_cmd_path, 'a', encoding='utf-8') as extra_file:
                 for app in rule['apps']:
-                    if app['id'] in allow_list:
+                    if app['id'] in allow_list or app['id'] in written_list:
                         continue
                     extra_file.write(f'query-pkg-info.py {app["id"]}\n')
+                    written_list.append(app['id'])
+                for group in rule['globalGroups']:
+                    for app in group['apps']:
+                        if app['id'] in allow_list or app['id'] in written_list:
+                            continue
+                        extra_file.write(f'query-pkg-info.py {app["id"]}\n')
+                        written_list.append(app['id'])
