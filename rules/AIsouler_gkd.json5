@@ -79,103 +79,11 @@
                     enable: false,
                 },
                 {
-                    id: "org.mozilla.firefox_beta",
-                    enable: false,
-                },
-                {
-                    id: "org.mozilla.fenix",
-                    enable: false,
-                },
-                {
-                    id: "org.mozilla.focus",
-                    enable: false,
-                },
-                {
                     id: "com.xunmeng.pinduoduo",
                     enable: false,
                 },
                 {
                     id: "com.microsoft.office.officehub",
-                    enable: false,
-                },
-                {
-                    id: "io.github.muntashirakon.AppManager",
-                    enable: false,
-                },
-                {
-                    id: "moe.shizuku.redirectstorage",
-                    enable: false,
-                },
-                {
-                    id: "web1n.stopapp",
-                    enable: false,
-                },
-                {
-                    id: "com.shatyuka.zhiliao",
-                    enable: false,
-                },
-                {
-                    id: "com.adobe.reader",
-                    enable: false,
-                },
-                {
-                    id: "org.wikipedia",
-                    enable: false,
-                },
-                {
-                    id: "org.kiwix.kiwixmobile",
-                    enable: false,
-                },
-                {
-                    id: "com.brakefield.painter",
-                    enable: false,
-                },
-                {
-                    id: "me.iacn.biliroaming",
-                    enable: false,
-                },
-                {
-                    id: "com.termux",
-                    enable: false,
-                },
-                {
-                    id: "oss.krtirtho.spotube",
-                    enable: false,
-                },
-                {
-                    id: "com.merxury.blocker",
-                    enable: false,
-                },
-                {
-                    id: "moe.minamigo.miuigms",
-                    enable: false,
-                },
-                {
-                    id: "mufanc.tools.applock",
-                    enable: false,
-                },
-                {
-                    id: "com.gankes.tsbattery",
-                    enable: false,
-                },
-                {
-                    id: "com.oasisfeng.nevo.xposed",
-                    enable: false,
-                },
-                {
-                    id: "com.ghostflying.locationreportenabler",
-                    enable: false,
-                },
-                {
-                    id: "com.zyc.zcontrol",
-                    enable: false,
-                },
-                {
-                    id: "org.nobody.multitts",
-                    enable: false,
-                },
-                {
-                    id: "deltazero.amarok",
                     enable: false,
                 },
                 {
@@ -204,42 +112,6 @@
                 },
                 {
                     id: "com.miui.video",
-                    enable: false,
-                },
-                {
-                    id: "com.github.capntrips.kernelflasher",
-                    enable: false,
-                },
-                {
-                    id: "com.google.android.googlequicksearchbox",
-                    enable: false,
-                },
-                {
-                    id: "qyz.onedesign",
-                    enable: false,
-                },
-                {
-                    id: "com.samsung.android.app.repaircal",
-                    enable: false,
-                },
-                {
-                    id: "com.yhchat.app",
-                    enable: false,
-                },
-                {
-                    id: "com.skyhand.sinahelper",
-                    enable: false,
-                },
-                {
-                    id: "com.rong862.bear",
-                    enable: false,
-                },
-                {
-                    id: "be.mygod.vpnhotspot",
-                    enable: false,
-                },
-                {
-                    id: "com.samsung.android.bixby.agent",
                     enable: false,
                 },
                 {
@@ -295,14 +167,6 @@
                     enable: false,
                 },
                 {
-                    id: "com.xiaomi.cajlauncher",
-                    enable: false,
-                },
-                {
-                    id: "com.mi.car.padapp",
-                    enable: false,
-                },
-                {
                     id: "com.android.calendar",
                     enable: false,
                 },
@@ -323,15 +187,7 @@
                     enable: false,
                 },
                 {
-                    id: "com.ssports.mobile.video",
-                    enable: false,
-                },
-                {
                     id: "tv.danmaku.bili",
-                    enable: false,
-                },
-                {
-                    id: "com.anshibo.activity",
                     enable: false,
                 },
                 {
@@ -347,10 +203,6 @@
                     enable: false,
                 },
                 {
-                    id: "com.tnscreen.main",
-                    enable: false,
-                },
-                {
                     id: "com.autonavi.minimap",
                     enable: false,
                 },
@@ -359,15 +211,7 @@
                     enable: false,
                 },
                 {
-                    id: "com.jdcar.jch",
-                    enable: false,
-                },
-                {
                     id: "com.coolapk.market",
-                    enable: false,
-                },
-                {
-                    id: "com.zb.sph.zaobaosingapore",
                     enable: false,
                 },
                 {
@@ -379,19 +223,7 @@
                     enable: false,
                 },
                 {
-                    id: "com.hihonor.baidu.browser",
-                    enable: false,
-                },
-                {
-                    id: "com.shaoniandream",
-                    enable: false,
-                },
-                {
                     id: "com.fan.app",
-                    enable: false,
-                },
-                {
-                    id: "com.simplesecurity.english",
                     enable: false,
                 },
                 {
@@ -412,10 +244,6 @@
                 },
                 {
                     id: "com.xingin.xhs",
-                    enable: false,
-                },
-                {
-                    id: "com.zhishan.washer",
                     enable: false,
                 },
                 {
@@ -504,103 +332,11 @@
                     enable: false,
                 },
                 {
-                    id: "org.mozilla.firefox_beta",
-                    enable: false,
-                },
-                {
-                    id: "org.mozilla.fenix",
-                    enable: false,
-                },
-                {
-                    id: "org.mozilla.focus",
-                    enable: false,
-                },
-                {
                     id: "com.xunmeng.pinduoduo",
                     enable: false,
                 },
                 {
                     id: "com.microsoft.office.officehub",
-                    enable: false,
-                },
-                {
-                    id: "io.github.muntashirakon.AppManager",
-                    enable: false,
-                },
-                {
-                    id: "moe.shizuku.redirectstorage",
-                    enable: false,
-                },
-                {
-                    id: "web1n.stopapp",
-                    enable: false,
-                },
-                {
-                    id: "com.shatyuka.zhiliao",
-                    enable: false,
-                },
-                {
-                    id: "com.adobe.reader",
-                    enable: false,
-                },
-                {
-                    id: "org.wikipedia",
-                    enable: false,
-                },
-                {
-                    id: "org.kiwix.kiwixmobile",
-                    enable: false,
-                },
-                {
-                    id: "com.brakefield.painter",
-                    enable: false,
-                },
-                {
-                    id: "me.iacn.biliroaming",
-                    enable: false,
-                },
-                {
-                    id: "com.termux",
-                    enable: false,
-                },
-                {
-                    id: "oss.krtirtho.spotube",
-                    enable: false,
-                },
-                {
-                    id: "com.merxury.blocker",
-                    enable: false,
-                },
-                {
-                    id: "moe.minamigo.miuigms",
-                    enable: false,
-                },
-                {
-                    id: "mufanc.tools.applock",
-                    enable: false,
-                },
-                {
-                    id: "com.gankes.tsbattery",
-                    enable: false,
-                },
-                {
-                    id: "com.oasisfeng.nevo.xposed",
-                    enable: false,
-                },
-                {
-                    id: "com.ghostflying.locationreportenabler",
-                    enable: false,
-                },
-                {
-                    id: "com.zyc.zcontrol",
-                    enable: false,
-                },
-                {
-                    id: "org.nobody.multitts",
-                    enable: false,
-                },
-                {
-                    id: "deltazero.amarok",
                     enable: false,
                 },
                 {
@@ -629,42 +365,6 @@
                 },
                 {
                     id: "com.miui.video",
-                    enable: false,
-                },
-                {
-                    id: "com.github.capntrips.kernelflasher",
-                    enable: false,
-                },
-                {
-                    id: "com.google.android.googlequicksearchbox",
-                    enable: false,
-                },
-                {
-                    id: "qyz.onedesign",
-                    enable: false,
-                },
-                {
-                    id: "com.samsung.android.app.repaircal",
-                    enable: false,
-                },
-                {
-                    id: "com.yhchat.app",
-                    enable: false,
-                },
-                {
-                    id: "com.skyhand.sinahelper",
-                    enable: false,
-                },
-                {
-                    id: "com.rong862.bear",
-                    enable: false,
-                },
-                {
-                    id: "be.mygod.vpnhotspot",
-                    enable: false,
-                },
-                {
-                    id: "com.samsung.android.bixby.agent",
                     enable: false,
                 },
                 {
@@ -717,14 +417,6 @@
                 },
                 {
                     id: "com.duokan.phone.remotecontroller",
-                    enable: false,
-                },
-                {
-                    id: "com.xiaomi.cajlauncher",
-                    enable: false,
-                },
-                {
-                    id: "com.mi.car.padapp",
                     enable: false,
                 },
                 {
@@ -941,103 +633,11 @@
                     enable: false,
                 },
                 {
-                    id: "org.mozilla.firefox_beta",
-                    enable: false,
-                },
-                {
-                    id: "org.mozilla.fenix",
-                    enable: false,
-                },
-                {
-                    id: "org.mozilla.focus",
-                    enable: false,
-                },
-                {
                     id: "com.xunmeng.pinduoduo",
                     enable: false,
                 },
                 {
                     id: "com.microsoft.office.officehub",
-                    enable: false,
-                },
-                {
-                    id: "io.github.muntashirakon.AppManager",
-                    enable: false,
-                },
-                {
-                    id: "moe.shizuku.redirectstorage",
-                    enable: false,
-                },
-                {
-                    id: "web1n.stopapp",
-                    enable: false,
-                },
-                {
-                    id: "com.shatyuka.zhiliao",
-                    enable: false,
-                },
-                {
-                    id: "com.adobe.reader",
-                    enable: false,
-                },
-                {
-                    id: "org.wikipedia",
-                    enable: false,
-                },
-                {
-                    id: "org.kiwix.kiwixmobile",
-                    enable: false,
-                },
-                {
-                    id: "com.brakefield.painter",
-                    enable: false,
-                },
-                {
-                    id: "me.iacn.biliroaming",
-                    enable: false,
-                },
-                {
-                    id: "com.termux",
-                    enable: false,
-                },
-                {
-                    id: "oss.krtirtho.spotube",
-                    enable: false,
-                },
-                {
-                    id: "com.merxury.blocker",
-                    enable: false,
-                },
-                {
-                    id: "moe.minamigo.miuigms",
-                    enable: false,
-                },
-                {
-                    id: "mufanc.tools.applock",
-                    enable: false,
-                },
-                {
-                    id: "com.gankes.tsbattery",
-                    enable: false,
-                },
-                {
-                    id: "com.oasisfeng.nevo.xposed",
-                    enable: false,
-                },
-                {
-                    id: "com.ghostflying.locationreportenabler",
-                    enable: false,
-                },
-                {
-                    id: "com.zyc.zcontrol",
-                    enable: false,
-                },
-                {
-                    id: "org.nobody.multitts",
-                    enable: false,
-                },
-                {
-                    id: "deltazero.amarok",
                     enable: false,
                 },
                 {
@@ -1066,42 +666,6 @@
                 },
                 {
                     id: "com.miui.video",
-                    enable: false,
-                },
-                {
-                    id: "com.github.capntrips.kernelflasher",
-                    enable: false,
-                },
-                {
-                    id: "com.google.android.googlequicksearchbox",
-                    enable: false,
-                },
-                {
-                    id: "qyz.onedesign",
-                    enable: false,
-                },
-                {
-                    id: "com.samsung.android.app.repaircal",
-                    enable: false,
-                },
-                {
-                    id: "com.yhchat.app",
-                    enable: false,
-                },
-                {
-                    id: "com.skyhand.sinahelper",
-                    enable: false,
-                },
-                {
-                    id: "com.rong862.bear",
-                    enable: false,
-                },
-                {
-                    id: "be.mygod.vpnhotspot",
-                    enable: false,
-                },
-                {
-                    id: "com.samsung.android.bixby.agent",
                     enable: false,
                 },
                 {
@@ -1154,14 +718,6 @@
                 },
                 {
                     id: "com.duokan.phone.remotecontroller",
-                    enable: false,
-                },
-                {
-                    id: "com.xiaomi.cajlauncher",
-                    enable: false,
-                },
-                {
-                    id: "com.mi.car.padapp",
                     enable: false,
                 },
                 {
@@ -1240,30 +796,6 @@
         },
     ],
     apps: [
-        {
-            id: "com.cto51.student",
-            name: "51CTO",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: ".foundation.activities.MainActivity",
-                            matches: "@[vid=\"iv_close\"] - [vid=\"rl_ad\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/b646bfb4-0d23-483e-b03e-f827f1c4b155",
-                            snapshotUrls: "https://i.gkd.li/i/18308616",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
         {
             id: "com.attempt.afusekt",
             name: "AfuseKt",
@@ -1429,45 +961,6 @@
                             matches: "[vid=\"remove_ads\"][visibleToUser=true]",
                             exampleUrls: "https://e.gkd.li/81d94f93-2308-4401-a151-771e5a94b79a",
                             snapshotUrls: "https://i.gkd.li/i/17538140",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.closeli.ipc",
-            name: "Eyeplus",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "com.arcsoft.closeli.dhmain2.main.NewMainActivity",
-                            matches: "@[vid=\"iv_close\"] - [vid=\"iv_ads\"]",
-                            exampleUrls: "https://e.gkd.li/2f4b9b69-06bb-4d7e-9607-4e1ebb57322b",
-                            snapshotUrls: "https://i.gkd.li/i/18070447",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 2,
-                    name: "局部广告-卡片广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "com.arcsoft.closeli.dhmain2.main.NewMainActivity",
-                            matches: "FrameLayout[childCount=2] > FrameLayout[childCount=3] > FrameLayout[index=2][childCount=1] > @ImageView[childCount=0][visibleToUser=true] <<n [vid=\"cv_empty_container\"]",
-                            exampleUrls: "https://e.gkd.li/798ebfdd-7966-437c-9d29-ce34749113d8",
-                            snapshotUrls: "https://i.gkd.li/i/18070476",
                         },
                     ],
                     enable: false,
@@ -2289,30 +1782,6 @@
             ],
         },
         {
-            id: "com.qihoo.smart",
-            name: "360智慧生活",
-            groups: [
-                {
-                    key: 1,
-                    name: "局部广告-云录像会员广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            position: {
-                                left: "width * 0.9402",
-                                top: "width * 0.0590",
-                            },
-                            activityIds: "com.qihoo.main.flutter.SmartHomeFlutterActivity",
-                            matches: "@View[id=\"root\"][visibleToUser=true] > View > [text^=\"服务时间\"] +6 [desc=\"支付宝\"]",
-                            exampleUrls: "https://e.gkd.li/1106858a-bb22-4583-b238-fe270733b5fe",
-                            snapshotUrls: "https://i.gkd.li/i/18354637",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
             id: "com.alicloud.databox",
             name: "阿里云盘",
             groups: [
@@ -2399,47 +1868,6 @@
             ],
         },
         {
-            id: "com.taitedi.hdd.ayi",
-            name: "爱其意",
-            groups: [
-                {
-                    key: 1,
-                    name: "通知提示-首页通知弹窗",
-                    desc: "点击[我知道了]",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            activityIds: ".MainActivity",
-                            matches: "[desc=\"我知道了\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/12550205-943e-4e8b-b26a-ebd6ce3f006a",
-                            snapshotUrls: "https://i.gkd.li/i/18261037",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 2,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: ".MainActivity",
-                            matches: "@ImageView[childCount=0][text=null][desc=null][id=null][visibleToUser=true][width<90 && height<90] < FrameLayout[childCount=1][text=null][desc=null][id=null][parent.childCount>3] +n FrameLayout >(1,2) [text^=\"立即\" || text=\"查看详情\" || text=\"了解更多\" || text=\"去微信看看\" || text$=\"应用\" || text=\"进入小程序\" || text=\"领取优惠\" || text=\"跳转微信\"]",
-                            exampleUrls: "https://e.gkd.li/8ea7b6ad-8e5b-4b96-bbac-ec5b7196ddbb",
-                            snapshotUrls: "https://i.gkd.li/i/18285341",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
             id: "com.qiyi.video",
             name: "爱奇艺",
             groups: [
@@ -2502,86 +1930,6 @@
                             matches: "[vid=\"btn_ads_img_pause_close\"][visibleToUser=true]",
                             exampleUrls: "https://e.gkd.li/2cc7688b-f802-4ebe-9eb6-6b9bc6ed5633",
                             snapshotUrls: "https://i.gkd.li/i/18135562",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.ssports.mobile.video",
-            name: "爱奇艺体育",
-            groups: [
-                {
-                    key: 0,
-                    name: "开屏广告",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            fastQuery: true,
-                            matches: "[vid=\"tv_jump_start_ad\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/6a6a6c4f-4a16-4a10-bb5c-2ce53ebe5e81",
-                            snapshotUrls: "https://i.gkd.li/i/17901123",
-                        },
-                    ],
-                    order: -10,
-                },
-            ],
-        },
-        {
-            id: "com.generalcomp.batian",
-            name: "霸天安云",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            key: 0,
-                            fastQuery: true,
-                            activityIds: "com.zasko.modulemain.mvpdisplay.activity.X35MainActivity",
-                            matches: "@ImageView[childCount=0][text=null][visibleToUser=true] < FrameLayout[childCount=1] <2 FrameLayout[childCount=2] <2 FrameLayout[childCount=2] <2 FrameLayout[childCount=2] - FrameLayout > [text^=\"扭动或点击\"]",
-                            exampleUrls: "https://e.gkd.li/5b7e260d-6896-4e9d-bbbf-062f5ec02b86",
-                            snapshotUrls: "https://i.gkd.li/i/17742964",
-                        },
-                        {
-                            key: 1,
-                            fastQuery: true,
-                            activityIds: "com.zasko.modulemain.mvpdisplay.activity.X35CommonDisplayActivity",
-                            matches: "@ImageView[visibleToUser=true][id=null][width<100 && height<100] <2 FrameLayout[childCount=3] < FrameLayout[childCount=1] < FrameLayout[childCount=1] < [id=\"android:id/content\"]",
-                            exampleUrls: "https://e.gkd.li/9b44f7b6-fe7e-4c9d-ac5f-6a41a7b507b3",
-                            snapshotUrls: "https://i.gkd.li/i/17735543",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 2,
-                    name: "局部广告-卡片广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            key: 0,
-                            fastQuery: true,
-                            activityIds: "com.zasko.modulemain.mvpdisplay.activity.X35CommonDisplayActivity",
-                            matches: "ImageView[childCount=0] < @ViewGroup[childCount=1][clickable=true][visibleToUser=true] <2 ViewGroup[childCount=2] <2 ViewGroup[childCount=2] <2 ViewGroup[childCount=2] - ViewGroup[childCount=2] >3 [text=\"广告\"]",
-                            exampleUrls: "https://e.gkd.li/8f24af69-0022-47c9-88a6-d5b949b377f8",
-                            snapshotUrls: "https://i.gkd.li/i/17735536",
-                        },
-                        {
-                            key: 1,
-                            fastQuery: true,
-                            activityIds: "com.zasko.modulemain.mvpdisplay.activity.X35MainActivity",
-                            matches: "@Image[childCount=0][visibleToUser=true] < View[childCount=1] -3 View[childCount=2] >2 [visibleToUser=true][text=\"广告\"] <<n [vid=\"native_ad_container\"]",
-                            exampleUrls: "https://e.gkd.li/42c397f9-4fc5-4a87-950d-cd6a86783c24",
-                            snapshotUrls: "https://i.gkd.li/i/17735537",
                         },
                     ],
                     enable: false,
@@ -2900,53 +2248,6 @@
                             matches: "[vid=\"story_ctrl_router\"][visibleToUser=true]",
                             exampleUrls: "https://e.gkd.li/4bfd6131-d4be-46be-affb-73338b01f49c",
                             snapshotUrls: "https://i.gkd.li/i/18164075",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.anshibo.activity",
-            name: "车e兴",
-            groups: [
-                {
-                    key: 1,
-                    name: "开屏广告",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            matches: "FrameLayout > FrameLayout[childCount>2] > @View[clickable=true][text=null][visibleToUser=true] + TextView[visibleToUser=true][text=null][index=parent.childCount.minus(1)]",
-                            exampleUrls: "https://e.gkd.li/7f58925f-39dd-40c3-a8f1-f6e5268eced4",
-                            snapshotUrls: "https://i.gkd.li/i/18046569",
-                            excludeSnapshotUrls: "https://i.gkd.li/i/18047812",
-                        },
-                    ],
-                    order: -10,
-                },
-            ],
-        },
-        {
-            id: "com.sainti.eduread",
-            name: "出口成章",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: ".home.FrActivity",
-                            matches: "[vid=\"ad_close\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/38334f57-2796-48a7-9000-76de3e8221ed",
-                            snapshotUrls: "https://i.gkd.li/i/18392760",
                         },
                     ],
                     enable: false,
@@ -3413,44 +2714,6 @@
             ],
         },
         {
-            id: "com.tnscreen.main",
-            name: "多屏互动",
-            groups: [
-                {
-                    key: 1,
-                    name: "开屏广告",
-                    matchTime: 10000,
-                    actionMaximum: 2,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            fastQuery: true,
-                            matches: "LinearLayout[childCount>0] + LinearLayout[vid=\"welcome_ad_view_skip\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/d14f7876-892f-4a25-aa1f-0f7500be52cb",
-                            snapshotUrls: "https://i.gkd.li/i/18368988",
-                            excludeSnapshotUrls: "https://i.gkd.li/i/18370963",
-                        },
-                    ],
-                    order: -10,
-                },
-                {
-                    key: 2,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            activityIds: "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity",
-                            matches: "[text=\"反馈\"] +(1,2) View[childCount=1] > Image[childCount=0][text=\"\"][width<60 && height<60]",
-                            exampleUrls: "https://e.gkd.li/be4513a1-fdf8-4889-a65d-55e2e0664afc",
-                            snapshotUrls: "https://i.gkd.li/i/18371332",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
             id: "me.ele",
             name: "饿了么",
             groups: [
@@ -3738,39 +3001,6 @@
             ],
         },
         {
-            id: "com.alcidae.smarthome",
-            name: "海雀",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-首页通知弹窗",
-                    desc: "点击[不再提醒]并关闭弹窗",
-                    fastQuery: true,
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    activityIds: "com.danale.video.mainpage.main.MainActivity",
-                    rules: [
-                        {
-                            key: 0,
-                            matches: "[vid=\"cb_not_show\"][checked=false][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/02d8846c-6753-4efe-b944-ea024f7485ad",
-                            snapshotUrls: "https://i.gkd.li/i/18291310",
-                        },
-                        {
-                            preKeys: [
-                                0,
-                            ],
-                            matches: "[vid=\"ibtn_close\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/02d8846c-6753-4efe-b944-ea024f7485ad",
-                            snapshotUrls: "https://i.gkd.li/i/18291310",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
             id: "com.umetrip.android.msky.app",
             name: "航旅纵横",
             groups: [
@@ -3860,27 +3090,6 @@
                             matches: "[text=\"继续使用\"]",
                             exampleUrls: "https://e.gkd.li/b9854883-ed3c-4a55-bd8e-7af7c02d59ba",
                             snapshotUrls: "https://i.gkd.li/i/17556284",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "camera.timestamp.mark.watermark",
-            name: "今日水印相机",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-谷歌广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "com.google.android.gms.ads.AdActivity",
-                            matches: "@ImageButton[desc=\"Interstitial close button\"][visibleToUser=true] < FrameLayout <2 RelativeLayout < [id=\"android:id/content\"]",
-                            exampleUrls: "https://e.gkd.li/1ab940d5-88b8-4088-81fe-9cb72c4cbd53",
-                            snapshotUrls: "https://i.gkd.li/i/17058992",
                         },
                     ],
                     enable: false,
@@ -4115,92 +3324,6 @@
             ],
         },
         {
-            id: "com.jdcar.jch",
-            name: "京东养车",
-            groups: [
-                {
-                    key: 0,
-                    name: "开屏广告",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            fastQuery: true,
-                            matches: "@[vid^=\"tv_jump\"][visibleToUser=true] - [vid=\"splash_ad_layout\"]",
-                            exampleUrls: "https://e.gkd.li/123daf14-31ac-4b5f-93cf-8b05efa26d03",
-                            snapshotUrls: "https://i.gkd.li/i/18308609",
-                        },
-                    ],
-                    order: -10,
-                },
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "com.jingdong.app.mall.MainFrameActivity",
-                            matches: "[id=\"com.jd.jdjch.lib.aurahome.feature:id/img_close\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/70efe1ea-0456-4438-b046-3494393191d7",
-                            snapshotUrls: "https://i.gkd.li/i/18287988",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.llmm.huiyuanuxiang",
-            name: "囧次元",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            activityIds: "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity",
-                            matches: "@Image[text!=null][childCount=0][visibleToUser=true] - View >2 [text=\"恭喜获得优惠券\"]",
-                            exampleUrls: "https://e.gkd.li/12d1cfdb-9aa0-4688-8997-733611c0faaf",
-                            snapshotUrls: "https://i.gkd.li/i/18129413",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.nursinghome.monitor",
-            name: "看护家",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            key: 1,
-                            fastQuery: true,
-                            matchTime: 10000,
-                            actionMaximum: 1,
-                            resetMatch: "app",
-                            activityIds: ".ui.activity.MainActivity",
-                            matches: "ImageView[childCount=0][text=null] < @ViewGroup[clickable=true][childCount=1] < ViewGroup <6 ViewGroup + ViewGroup >3 [text=\"广告\"]",
-                            exampleUrls: "https://e.gkd.li/12316698-b92f-4a78-be55-5d9a90700f4a",
-                            snapshotUrls: "https://i.gkd.li/i/17504953",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
             id: "com.coolapk.market",
             name: "酷安",
             groups: [
@@ -4279,114 +3402,6 @@
                             activityIds: "com.ucpro.BrowserActivity",
                             matches: "ImageView[id=\"com.quark.browser:id/close_img\"][clickable=true]",
                             snapshotUrls: "https://i.gkd.li/i/13292571",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.lanlanys.app",
-            name: "懒懒视频",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            activityIds: ".view.BaseActivity",
-                            matches: "@ImageView[index=3][childCount=0][clickable=true][visibleToUser=true][text=null][id=null] <4 RelativeLayout[childCount=8] < RelativeLayout[childCount=1] < [parent=null]",
-                            exampleUrls: "https://e.gkd.li/42ac7c76-362c-4f47-b4d8-ab9677246165",
-                            snapshotUrls: "https://i.gkd.li/i/17632595",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.zb.sph.zaobaosingapore",
-            name: "联合早报",
-            groups: [
-                {
-                    key: 1,
-                    name: "开屏广告",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            activityIds: "com.google.android.gms.ads.AdActivity",
-                            matches: "[id=\"mys-content\"] > View[childCount=2] > View[index=1][childCount=1] > Button[clickable=true][childCount=0][visibleToUser=true][text=\"\"]",
-                            exampleUrls: "https://e.gkd.li/6892e4e4-a765-415d-9c23-5587472b6f6e",
-                            snapshotUrls: "https://i.gkd.li/i/18297111",
-                        },
-                    ],
-                    order: -10,
-                },
-                {
-                    key: 2,
-                    name: "局部广告-信息流广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "sg.com.sph.app.views.bnavigation.MainActivity",
-                            matches: "@Button[id=\"cbb\"][text=\"\"][clickable=true][visibleToUser=true] - [visibleToUser=true][id=\"abgb\"] <<n [vid=\"adsLayout\"]",
-                            exampleUrls: "https://e.gkd.li/f3d93356-2762-4547-b5eb-abf9cc83eb6a",
-                            snapshotUrls: "https://i.gkd.li/i/18297090",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.topgether.sixfoot",
-            name: "六只脚",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            key: 0,
-                            fastQuery: true,
-                            activityIds: "Pro.biz.home.ProMainActivity",
-                            matches: "[vid=\"iv_close\"]",
-                            exampleUrls: "https://e.gkd.li/fc4a468d-407f-4a70-add8-26487f35933f",
-                            snapshotUrls: "https://i.gkd.li/i/17265831",
-                        },
-                        {
-                            key: 1,
-                            activityIds: "Pro.biz.record.RecordMainActivity",
-                            matches: "[id=\"android:id/content\"] >4 FrameLayout[childCount=2] > FrameLayout[childCount=3] > FrameLayout[childCount=1] > ImageView[childCount=0][text=null]",
-                            exampleUrls: "https://e.gkd.li/01fd3dff-c1e9-42b3-bdb1-05124a67504b",
-                            snapshotUrls: "https://i.gkd.li/i/17265832",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 2,
-                    name: "局部广告-信息流广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "Pro.biz.home.ProMainActivity",
-                            matches: "@ImageView[childCount=0][text=null] < FrameLayout[childCount=1] - LinearLayout > [text=\"下载应用\" || text=\"立即申请\"]",
-                            exampleUrls: "https://e.gkd.li/32475c6e-888a-4048-b7ed-5b3bc3c1c580",
-                            snapshotUrls: [
-                                "https://i.gkd.li/i/17268235",
-                                "https://i.gkd.li/i/17303774",
-                            ],
                         },
                     ],
                     enable: false,
@@ -5165,52 +4180,6 @@
             groups: [],
         },
         {
-            id: "com.lcworld.haiwainet",
-            name: "人民日报海外版",
-            groups: [
-                {
-                    key: 1,
-                    name: "局部广告-悬浮广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            matchTime: 10000,
-                            actionMaximum: 1,
-                            resetMatch: "app",
-                            activityIds: ".ui.main.MainActivity",
-                            matches: "[vid=\"iv_paper_close\"]",
-                            exampleUrls: "https://e.gkd.li/021a457e-6c55-4ec6-b2f2-85b33a93c5b6",
-                            snapshotUrls: "https://i.gkd.li/i/17089256",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.hihonor.baidu.browser",
-            name: "荣耀浏览器",
-            groups: [
-                {
-                    key: 0,
-                    name: "开屏广告",
-                    fastQuery: true,
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            matches: "TextView[text^=\"跳过\"][text.length<10][visibleToUser=true]",
-                            snapshotUrls: "https://i.gkd.li/i/18279202",
-                        },
-                    ],
-                    order: -10,
-                },
-            ],
-        },
-        {
             id: "com.android.packageinstaller",
             name: "软件包安装程序",
             groups: [
@@ -5292,95 +4261,6 @@
             ],
         },
         {
-            id: "com.svw.sc.mos",
-            name: "上汽大众",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            key: 0,
-                            fastQuery: true,
-                            matchTime: 10000,
-                            actionMaximum: 1,
-                            resetMatch: "app",
-                            activityIds: ".main.ui.home.ui.AppStartDialogActivity",
-                            matches: "[vid=\"iv_appstart_close\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/0acf720d-1752-449f-bbe6-357896f1bb2e",
-                            snapshotUrls: "https://i.gkd.li/i/17528776",
-                        },
-                        {
-                            key: 1,
-                            fastQuery: true,
-                            activityIds: ".main.ui.mine.ui.MedalDialogActivity",
-                            matches: "[vid=\"imv_share_close\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/01611ed2-11f7-4ffe-93d7-f07878196ada",
-                            snapshotUrls: "https://i.gkd.li/i/18399174",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 2,
-                    name: "局部广告-悬浮广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            matchTime: 10000,
-                            actionMaximum: 1,
-                            resetMatch: "app",
-                            activityIds: ".main.ui.MainActivity",
-                            matches: "[vid=\"clyt_floating_close\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/fbbc311e-cfe1-468a-88c1-20633622a34e",
-                            snapshotUrls: "https://i.gkd.li/i/17528781",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 3,
-                    name: "局部广告-卡片广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: ".main.ui.MainActivity",
-                            matches: "[vid=\"close_contain\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/2d9042c4-0dac-47d5-9fc4-92a91da393b5",
-                            snapshotUrls: "https://i.gkd.li/i/17709772",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.shaoniandream",
-            name: "少年梦阅读",
-            groups: [
-                {
-                    key: 0,
-                    name: "开屏广告",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            fastQuery: true,
-                            matches: "[id=\"com.shaoniandream:id/countdown\"]",
-                            exampleUrls: "https://e.gkd.li/080e7f84-c8ac-48b3-ba82-c1dbb795f4f6",
-                            snapshotUrls: "https://i.gkd.li/i/13236791",
-                        },
-                    ],
-                    order: -10,
-                },
-            ],
-        },
-        {
             id: "com.smzdm.client.android",
             name: "什么值得买",
             groups: [
@@ -5453,30 +4333,6 @@
             id: "cn.gov.pbc.dcep",
             name: "数字人民币",
             groups: [],
-        },
-        {
-            id: "com.simplesecurity.english",
-            name: "水果派",
-            groups: [
-                {
-                    key: 0,
-                    name: "开屏广告",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            fastQuery: true,
-                            matchDelay: 3000,
-                            matches: "[text=\"关闭广告\"]",
-                            exampleUrls: "https://e.gkd.li/8718ddc4-8775-482e-a259-bc43c7171fd8",
-                            snapshotUrls: "https://i.gkd.li/i/13447714",
-                        },
-                    ],
-                    order: -10,
-                },
-            ],
         },
         {
             id: "com.android.quicksearchbox",
@@ -6012,66 +4868,6 @@
                         },
                     ],
                     order: -10,
-                },
-            ],
-        },
-        {
-            id: "com.chinarailway.globalticketing",
-            name: "铁路12306",
-            groups: [],
-        },
-        {
-            id: "com.tongtongsuo.app",
-            name: "通通锁",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    fastQuery: true,
-                    rules: [
-                        {
-                            key: 1,
-                            actionDelay: 2000,
-                            activityIds: "com.scaf.android.client.activity.DoorkeyControlPanelActivity",
-                            matches: "ImageView[childCount=0][text=null][desc=null][id=null][visibleToUser=true][width<90 && height<90] < @FrameLayout[childCount=1][text=null][desc=null][id=null] <2 FrameLayout[childCount=5] + FrameLayout[childCount=2] > [text^=\"立即\" || text=\"查看详情\" || text=\"了解更多\" || text=\"去逛逛\" || text=\"去微信看看\" || text$=\"应用\" || text=\"进入小程序\" || text=\"领取优惠\" || text=\"跳转微信\"]",
-                            exampleUrls: "https://e.gkd.li/09628cf0-3004-439f-9bfd-68a085b0bda6",
-                            snapshotUrls: "https://i.gkd.li/i/18296115",
-                        },
-                        {
-                            key: 2,
-                            actionDelay: 2000,
-                            activityIds: "com.scaf.android.client.activity.DoorkeyControlPanelActivity",
-                            matches: "ImageView[childCount=0][text=null][desc=null][id=null][visibleToUser=true][width<90 && height<90] < @FrameLayout[childCount=1][text=null][desc=null][id=null][parent.childCount>3] +n FrameLayout >(1,2) [text^=\"立即\" || text=\"查看详情\" || text=\"了解更多\" || text=\"去微信看看\" || text$=\"应用\" || text=\"进入小程序\" || text=\"领取优惠\" || text=\"跳转微信\"]",
-                            exampleUrls: "https://e.gkd.li/d4ce9699-27f6-4191-92fd-7cab78632299",
-                            snapshotUrls: "https://i.gkd.li/i/18309574",
-                        },
-                        {
-                            key: 3,
-                            actionDelay: 2000,
-                            activityIds: "com.scaf.android.client.activity.DoorkeyControlPanelActivity",
-                            matches: "ImageView[childCount=0][text=null][desc=null][id=null][visibleToUser=true][width<90 && height<90] < @FrameLayout[childCount=1][text=null][desc=null][id=null] - FrameLayout[childCount>2] >3 [text^=\"立即\" || text$=\"应用\" || text=\"了解更多\" || text=\"查看详情\"]",
-                            exampleUrls: "https://e.gkd.li/0d576ac2-9821-4e7e-b398-fef3427ad7c2",
-                            snapshotUrls: "https://i.gkd.li/i/18309593",
-                        },
-                        {
-                            key: 4,
-                            actionDelay: 2000,
-                            activityIds: "com.scaf.android.client.activity.DoorkeyControlPanelActivity",
-                            matches: "@ImageView[childCount=0][visibleToUser=true] < FrameLayout[childCount=1] < FrameLayout - FrameLayout >6 [text^=\"点击\"]",
-                            exampleUrls: "https://e.gkd.li/4e62c701-43cc-49a1-acd8-fb9604cad328",
-                            snapshotUrls: "https://i.gkd.li/i/18309739",
-                        },
-                        {
-                            key: 5,
-                            actionDelay: 2000,
-                            activityIds: "com.beizi.ad.internal.activity.BeiZiInterstitialActivity",
-                            matches: "[vid=\"beizi_interstitial_ad_close_iv\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/4a608829-51f8-439c-93b3-9e78cd036e0c",
-                            snapshotUrls: "https://i.gkd.li/i/18309693",
-                        },
-                    ],
-                    enable: false,
                 },
             ],
         },
@@ -7677,128 +6473,6 @@
             ],
         },
         {
-            id: "com.wanbangauto.chargepile",
-            name: "星星充电",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    fastQuery: true,
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            activityIds: ".ui.newhome.MainActivity",
-                            matches: "@[vid=\"image_close\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/ce4838fb-0f0d-4b20-bab3-565bd80bbc93",
-                            snapshotUrls: "https://i.gkd.li/i/18421090",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.cmri.universalapp",
-            name: "移动爱家",
-            groups: [
-                {
-                    key: 5,
-                    name: "全屏广告-弹窗广告",
-                    fastQuery: true,
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            activityIds: ".SmartMainProxyActivity",
-                            matches: "[vid=\"ivCancelDlg\"][visibleToUser=true]",
-                            snapshotUrls: "https://i.gkd.li/i/17872852",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 6,
-                    name: "局部广告-卡片广告",
-                    fastQuery: true,
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    activityIds: "com.cmri.universalapp.SmartMainProxyActivity",
-                    rules: [
-                        {
-                            key: 0,
-                            name: "横幅式",
-                            matches: "[vid=\"close_banner\"][visibleToUser=true]",
-                            snapshotUrls: "https://i.gkd.li/i/17872961",
-                        },
-                        {
-                            key: 1,
-                            name: "卡片信息流式",
-                            matches: "[vid=\"iv_close\"][visibleToUser=true]",
-                            snapshotUrls: "https://i.gkd.li/i/17872961",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.lieju.lws.escanu",
-            name: "易视看",
-            groups: [
-                {
-                    key: 1,
-                    name: "局部广告-卡片广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "com.jooan.qiaoanzhilian.ali.view.main_page.NewMainDeviceListActivity",
-                            matches: "ImageView[childCount=0] < @ViewGroup[clickable=true][visibleToUser=true][childCount=1] <2 ViewGroup <2 ViewGroup - ViewGroup >3 [text=\"广告\"]",
-                            exampleUrls: "https://e.gkd.li/47781f68-64d1-4bf6-8d09-85318ff5b78a",
-                            snapshotUrls: "https://i.gkd.li/i/17931020",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 2,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    fastQuery: true,
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            key: 0,
-                            activityIds: [
-                                "com.jooan.qiaoanzhilian.ali.view.main_page.NewMainDeviceListActivity",
-                                "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity",
-                            ],
-                            matches: "@ImageView[childCount=0][text=null][desc=null][id=null][visibleToUser=true][width<90 && height<90] < FrameLayout[childCount=1][text=null][desc=null][id=null] - FrameLayout[childCount>2] >3 [text^=\"立即\" || text$=\"应用\" || text=\"了解更多\" || text=\"查看详情\"]",
-                            exampleUrls: "https://e.gkd.li/4bd02512-bc63-4242-b3c5-c68d97b89f2d",
-                            snapshotUrls: [
-                                "https://i.gkd.li/i/17930503",
-                                "https://i.gkd.li/i/17931003",
-                            ],
-                        },
-                        {
-                            key: 1,
-                            activityIds: "com.jooan.qiaoanzhilian.ui.activity.gun_ball.GunBallCameraPlayerNewActivity",
-                            matches: "@ImageView[childCount=0][text=null][desc=null][id=null][visibleToUser=true][width<90 && height<90] < FrameLayout[childCount=1][text=null][desc=null][id=null][parent.childCount>3] +n FrameLayout >(1,2) [text^=\"立即\" || text=\"查看详情\" || text=\"了解更多\" || text=\"去微信看看\" || text$=\"应用\" || text=\"进入小程序\" || text=\"领取优惠\" || text=\"跳转微信\"]",
-                            exampleUrls: "https://e.gkd.li/96f6fb24-37c6-4b3e-89e3-91c4279c7221",
-                            snapshotUrls: "https://i.gkd.li/i/17930496",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
             id: "com.miui.packageinstaller",
             name: "应用包管理组件",
             groups: [
@@ -8030,57 +6704,6 @@
                             matches: "[text=\"就是不感兴趣\"]",
                             exampleUrls: "https://e.gkd.li/be57974c-6656-4619-aed8-c61421f6a748",
                             snapshotUrls: "https://i.gkd.li/i/16977036",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.zhishan.washer",
-            name: "悠洗",
-            groups: [
-                {
-                    key: 0,
-                    name: "开屏广告",
-                    matchTime: 20000,
-                    actionMaximum: 2,
-                    resetMatch: "app",
-                    priorityTime: 10000,
-                    rules: [
-                        {
-                            fastQuery: true,
-                            matches: "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/47344324-7c76-47d3-82de-30c8f905ad8f",
-                            snapshotUrls: "https://i.gkd.li/i/17002073",
-                        },
-                    ],
-                    order: -10,
-                },
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            key: 0,
-                            matchTime: 10000,
-                            actionMaximum: 1,
-                            resetMatch: "app",
-                            activityIds: "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity",
-                            matches: "[text=\"反馈\"] + View[text=\"\"][childCount=1] > Image[text=\"\"][childCount=0][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/355f6e11-c21f-4cb2-b103-1a56032da15c",
-                            snapshotUrls: "https://i.gkd.li/i/17002026",
-                        },
-                        {
-                            key: 1,
-                            matchTime: 10000,
-                            actionMaximum: 1,
-                            resetMatch: "app",
-                            activityIds: "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity",
-                            matches: "[text=\"反馈\"] -4 View[text=\"\"][childCount=1] > Image[text=\"\"][childCount=0][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/13cb561b-cfd5-44a8-b8ed-8bc1500b73a8",
-                            snapshotUrls: "https://i.gkd.li/i/17088067",
                         },
                     ],
                     enable: false,
@@ -8722,27 +7345,6 @@
             ],
         },
         {
-            id: "com.zol.android",
-            name: "中关村在线",
-            groups: [
-                {
-                    key: 0,
-                    name: "局部广告-首页悬浮广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: ".renew.ui.MainActivity",
-                            matches: "@[vid=\"close_active\"][visibleToUser=true] + [vid=\"active_enter_layout\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/ac4f334e-54e7-4df8-b708-2ad101962b4c",
-                            snapshotUrls: "https://i.gkd.li/i/17965705",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
             id: "com.ct.client",
             name: "中国电信",
             groups: [
@@ -9164,107 +7766,6 @@
                                 "https://i.gkd.li/i/14722559",
                                 "https://i.gkd.li/i/15286334",
                             ],
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.whale.whaleshop.ced",
-            name: "追剧达人",
-            groups: [
-                {
-                    key: 1,
-                    name: "通知提示-公告弹窗",
-                    desc: "点击[我知道了]",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            activityIds: ".MainActivity",
-                            matches: "[desc=\"我知道了\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/c74158b2-c8d9-4ab2-aeb8-e87289fa49e0",
-                            snapshotUrls: "https://i.gkd.li/i/17498241",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.ziroom.ziroomcustomer",
-            name: "自如",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: ".MainActivity",
-                            matches: "[vid=\"tv_ok\"][visibleToUser=true]",
-                            exampleUrls: "https://e.gkd.li/c6507af4-1bb2-4c39-ab5d-3d04ec391291",
-                            snapshotUrls: "https://i.gkd.li/i/18373198",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.doudoubird.weather",
-            name: "最准天气",
-            groups: [
-                {
-                    key: 1,
-                    name: "局部广告-卡片广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: ".MainActivity",
-                            matches: "[vid=\"ad_view\"] + [vid=\"delete_icon\"]",
-                            exampleUrls: "https://e.gkd.li/2a61d3de-6117-4d85-8f4d-565f6ee00a57",
-                            snapshotUrls: "https://i.gkd.li/i/17358146",
-                        },
-                    ],
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "coding.yu.ccompiler.new",
-            name: "C语言编译器",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告-弹窗广告",
-                    desc: "点击关闭",
-                    matchTime: 10000,
-                    actionMaximum: 1,
-                    resetMatch: "app",
-                    rules: [
-                        {
-                            key: 0,
-                            fastQuery: true,
-                            activityIds: "coding.yu.ccompiler.ui.CMainActivity",
-                            matches: "@ImageView[childCount=0][text=null][visibleToUser=true] < FrameLayout[childCount=1] <2 FrameLayout[childCount=2] <2 FrameLayout[childCount=2] <2 FrameLayout[childCount=2] - FrameLayout > [text^=\"扭动或点击\"]",
-                            exampleUrls: "https://e.gkd.li/274838d1-4618-41ea-b42e-beb0b021f8b2",
-                            snapshotUrls: "https://i.gkd.li/i/17689928",
-                        },
-                        {
-                            key: 1,
-                            fastQuery: true,
-                            activityIds: "coding.yu.ccompiler.ui.CMainActivity",
-                            matches: "@ImageView[childCount=0][text=null][desc=null][id=null][visibleToUser=true][width<90 && height<90] < FrameLayout[childCount=1][text=null][desc=null][id=null] <2 FrameLayout[childCount=5] + FrameLayout[childCount=2] > [text^=\"立即\" || text=\"查看详情\" || text=\"了解更多\" || text=\"去逛逛\" || text=\"去微信看看\" || text$=\"应用\" || text=\"进入小程序\" || text=\"领取优惠\" || text=\"跳转微信\"]",
-                            exampleUrls: "https://e.gkd.li/1ea8876f-4cac-492e-b977-e9a512aa1661",
-                            snapshotUrls: "https://i.gkd.li/i/17689929",
                         },
                     ],
                     enable: false,

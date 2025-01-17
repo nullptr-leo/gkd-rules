@@ -2063,23 +2063,6 @@
             ],
         },
         {
-            id: "com.xyhj.hanju",
-            name: "韩剧TV",
-            groups: [
-                {
-                    key: 1,
-                    name: "局部广告-播放页下方广告",
-                    desc: "点击x",
-                    fastQuery: true,
-                    activityIds: ".ui.activity.ZtvSeriesActivity",
-                    rules: "[vid=\"unified_ad_close\"]",
-                    exampleUrls: "https://e.gkd.li/b94e7ce3-16ba-42e0-9e93-882ceb5e6ab0",
-                    snapshotUrls: "https://i.gkd.li/i/17265226",
-                    enable: false,
-                },
-            ],
-        },
-        {
             id: "com.umetrip.android.msky.app",
             name: "航旅纵横",
             groups: [
@@ -2430,36 +2413,6 @@
                     activityIds: "com.ucpro.BrowserActivity",
                     rules: "ImageView[id=\"com.quark.browser:id/close_img\"][clickable=true]",
                     snapshotUrls: "https://i.gkd.li/i/13292571",
-                    enable: false,
-                },
-            ],
-        },
-        {
-            id: "com.topgether.sixfoot",
-            name: "六只脚",
-            groups: [
-                {
-                    key: 1,
-                    name: "全屏广告",
-                    rules: [
-                        {
-                            key: 0,
-                            activityIds: "Pro.biz.record.RecordMainActivity",
-                            matches: "[id=\"android:id/content\"] FrameLayout[index=1][childCount=1] > ImageView",
-                            exampleUrls: "https://e.gkd.li/e15810d3-2b61-4918-aecd-f4d72cd8deeb",
-                            snapshotUrls: "https://i.gkd.li/i/17265792",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
-                    key: 2,
-                    name: "全屏广告-开通会员弹窗",
-                    fastQuery: true,
-                    activityIds: "Pro.biz.home.ProMainActivity",
-                    rules: "[vid=\"iv_pay_vip\"] + [vid=\"iv_close\"]",
-                    exampleUrls: "https://e.gkd.li/1a26e4b0-2445-4595-b003-4a3334ae2953",
-                    snapshotUrls: "https://i.gkd.li/i/17265791",
                     enable: false,
                 },
             ],
