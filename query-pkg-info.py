@@ -181,14 +181,14 @@ def get_app_info_from_markets(pkg_name):
         software_name = get_app_info_from_coolapk_market(pkg_name)
     if not is_pkg_name_valid(software_name):
         software_name = get_app_info_from_xiaomi_market(pkg_name)
-    if not is_pkg_name_valid(software_name):
-        software_name = get_app_info_from_google_play(pkg_name)
+    # if not is_pkg_name_valid(software_name):
+    #     software_name = get_app_info_from_google_play(pkg_name)
     if not is_pkg_name_valid(software_name):
         software_name = get_app_info_from_galaxy_market(pkg_name)
-    if not is_pkg_name_valid(software_name):
-        software_name = get_app_info_from_apkshub_market(pkg_name)
-    if not is_pkg_name_valid(software_name):
-        software_name = get_app_info_from_fdroid_market(pkg_name)
+    # if not is_pkg_name_valid(software_name):
+    #     software_name = get_app_info_from_apkshub_market(pkg_name)
+    # if not is_pkg_name_valid(software_name):
+    #     software_name = get_app_info_from_fdroid_market(pkg_name)
     # Blocked
     # if not is_pkg_name_valid(software_name):
     #     software_name = get_app_info_from_apkcombo_market(pkg_name)
