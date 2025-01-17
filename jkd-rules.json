@@ -1,7 +1,7 @@
 {
     id: 513,
     name: "GKD by Leo",
-    version: 22,
+    version: 23,
     author: "Leo",
     globalGroups: [
         {
@@ -29,10 +29,7 @@
                         "[text*=\"搜索\"][text.length<6][visibleToUser=true]",
                         "[(text*=\"搜索\" && text.length<6) || vid~=\"(?is).*search.*\" || (desc*=\"搜索\" && desc.length<6)][visibleToUser=true]",
                     ],
-                    matches: "[childCount=0][visibleToUser=true][((text*=\"跳过\" || text*=\"跳過\" || text~=\"(?is).*skip.*\") && text.length<10) || ((desc*=\"跳过\" || desc*=\"跳過\" || desc~=\"(?is).*skip.*\") && desc.length<10) || id~=\"(?is).*tt_splash_skip_btn\" || vid~=\"(?is).*skip.*\" || (vid~=\"(?is).*count.*\" && vid~=\"(?is).*down.*\" && vid!~=\"(?is).*load.*\" && vid!~=\"(?is).*time.*\" && vid!~=\"(?is).*hour.*\" && vid!~=\"(?is).*minute.*\" && vid!~=\"(?is).*second.*\" && vid!~=\"(?is).*timing.*\" && vid!~=\"(?is).*add.*\" && vid!~=\"(?is).*ead.*\" && text!~=\"([01]?[0-9]|2[0-3])[:：][0-5][0-9]\")]",
-                    snapshotUrls: [
-                        "https://i.gkd.li/i/16742932",
-                    ],
+                    matches: "[childCount=0][visibleToUser=true][((text*=\"跳过\" || text*=\"跳過\" || text~=\"(?is).*skip.*\") && text.length<10) || ((desc*=\"跳过\" || desc*=\"跳過\" || desc~=\"(?is).*skip.*\") && desc.length<10) || id~=\"(?is).*tt_splash_skip_btn\" || vid~=\"(?is).*skip.*\" || (vid~=\"(?is).*count.*\" && vid~=\"(?is).*down.*\" && vid!~=\"(?is).*load.*\" && vid!~=\"(?is).*time.*\" && vid!~=\"(?is).*hour.*\" && vid!~=\"(?is).*minute.*\" && vid!~=\"(?is).*second.*\" && vid!~=\"(?is).*add.*\" && vid!~=\"(?is).*ead.*\" && text!~=\"([01]?[0-9]|2[0-3])[:：][0-5][0-9]\")]",
                 },
                 {
                     key: 2,
@@ -289,7 +286,10 @@
                     key: 0,
                     name: "功能类-自动查看原图/原视频",
                     desc: "自动点击[查看原图]按钮",
-                    activityIds: "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
+                    activityIds: [
+                        "com.tencent.mm.ui.chatting.gallery.ImageGalleryUI",
+                        "com.tencent.mm.ui.LauncherUI",
+                    ],
                     rules: [
                         {
                             key: 0,
