@@ -1,7 +1,7 @@
 {
     id: 825,
     name: "AdproのGKD订阅",
-    version: 87,
+    version: 89,
     author: "Adpro(AdproTeam)",
     globalGroups: [
         {
@@ -2063,6 +2063,23 @@
             ],
         },
         {
+            id: "com.xyhj.hanju",
+            name: "韩剧TV",
+            groups: [
+                {
+                    key: 1,
+                    name: "局部广告-播放页下方广告",
+                    desc: "点击x",
+                    fastQuery: true,
+                    activityIds: ".ui.activity.ZtvSeriesActivity",
+                    rules: "[vid=\"unified_ad_close\"]",
+                    exampleUrls: "https://e.gkd.li/b94e7ce3-16ba-42e0-9e93-882ceb5e6ab0",
+                    snapshotUrls: "https://i.gkd.li/i/17265226",
+                    enable: false,
+                },
+            ],
+        },
+        {
             id: "com.umetrip.android.msky.app",
             name: "航旅纵横",
             groups: [
@@ -2413,6 +2430,36 @@
                     activityIds: "com.ucpro.BrowserActivity",
                     rules: "ImageView[id=\"com.quark.browser:id/close_img\"][clickable=true]",
                     snapshotUrls: "https://i.gkd.li/i/13292571",
+                    enable: false,
+                },
+            ],
+        },
+        {
+            id: "com.topgether.sixfoot",
+            name: "六只脚",
+            groups: [
+                {
+                    key: 1,
+                    name: "全屏广告",
+                    rules: [
+                        {
+                            key: 0,
+                            activityIds: "Pro.biz.record.RecordMainActivity",
+                            matches: "[id=\"android:id/content\"] FrameLayout[index=1][childCount=1] > ImageView",
+                            exampleUrls: "https://e.gkd.li/e15810d3-2b61-4918-aecd-f4d72cd8deeb",
+                            snapshotUrls: "https://i.gkd.li/i/17265792",
+                        },
+                    ],
+                    enable: false,
+                },
+                {
+                    key: 2,
+                    name: "全屏广告-开通会员弹窗",
+                    fastQuery: true,
+                    activityIds: "Pro.biz.home.ProMainActivity",
+                    rules: "[vid=\"iv_pay_vip\"] + [vid=\"iv_close\"]",
+                    exampleUrls: "https://e.gkd.li/1a26e4b0-2445-4595-b003-4a3334ae2953",
+                    snapshotUrls: "https://i.gkd.li/i/17265791",
                     enable: false,
                 },
             ],
@@ -5516,24 +5563,6 @@
             name: "知乎",
             groups: [
                 {
-                    key: 9,
-                    name: "局部广告-搜索栏上方广告",
-                    desc: "点击关闭",
-                    rules: [
-                        {
-                            fastQuery: true,
-                            activityIds: "com.zhihu.android.app.ui.activity.MainActivity",
-                            matches: [
-                                "[vid=\"ad_container\"]",
-                                "[vid=\"img_close_focus\"]",
-                            ],
-                            exampleUrls: "https://m.gkd.li/101449500/11c26ab8-0b01-4345-8ea8-d4e97233b723",
-                            snapshotUrls: "https://i.gkd.li/i/14156887",
-                        },
-                    ],
-                    enable: false,
-                },
-                {
                     key: 12,
                     name: "全屏广告-弹窗广告",
                     desc: "点击关闭",
@@ -5560,29 +5589,30 @@
                             matches: "[id=\"com.zhihu.android:id/floating_close_btn\"]",
                             snapshotUrls: "https://i.gkd.li/i/12647421",
                         },
+                        {
+                            key: 3,
+                            action: "clickCenter",
+                            activityIds: "com.zhihu.android.creatorcenter.CreatorCenterHostActivity",
+                            matches: "View[text=\"关闭\"] > @[visibleToUser=true][text=\"关闭\"] <<n [vid=\"webview_bg\"]",
+                            snapshotUrls: "https://i.gkd.li/i/14955183",
+                        },
                     ],
                     enable: false,
                 },
                 {
                     key: 13,
-                    name: "全屏广告-比赛、活动弹窗",
-                    desc: "点击x",
+                    name: "局部广告-搜索栏上方广告",
+                    desc: "点击关闭",
                     rules: [
                         {
-                            key: 0,
-                            name: "发想法赢奖励弹窗",
                             fastQuery: true,
-                            activityIds: "com.zhihu.android.topic.TopicActivity",
-                            matches: "@ImageView - ViewGroup <<n [vid=\"scene_container\"]",
-                            snapshotUrls: "https://i.gkd.li/i/14020339",
-                        },
-                        {
-                            key: 1,
-                            name: "古遗址提名大赛弹窗",
-                            activityIds: "com.zhihu.android.creatorcenter.CreatorCenterHostActivity",
-                            action: "clickCenter",
-                            matches: "View[text=\"关闭\"] > [text=\"关闭\"]",
-                            snapshotUrls: "https://i.gkd.li/i/14957770",
+                            activityIds: "com.zhihu.android.app.ui.activity.MainActivity",
+                            matches: [
+                                "[vid=\"ad_container\"]",
+                                "[vid=\"img_close_focus\"]",
+                            ],
+                            exampleUrls: "https://m.gkd.li/101449500/11c26ab8-0b01-4345-8ea8-d4e97233b723",
+                            snapshotUrls: "https://i.gkd.li/i/14156887",
                         },
                     ],
                     enable: false,
@@ -5594,32 +5624,17 @@
                     fastQuery: true,
                     rules: [
                         {
-                            key: 0,
-                            activityIds: "com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity",
-                            matches: "@ImageView[clickable=true][visibleToUser=true] <n * >n [text*=\"广告\"]",
-                            snapshotUrls: [
-                                "https://i.gkd.li/i/14178980",
-                                "https://i.gkd.li/i/14206949",
-                                "https://i.gkd.li/i/14206988",
-                            ],
-                        },
-                        {
                             key: 2,
                             activityIds: [
                                 "com.zhihu.android.mix.activity.ContentMixProfileActivity",
                                 "com.zhihu.android.mixshortcontainer.MixShortContainerActivity",
                             ],
-                            matches: "@[text=\"×\"][visibleToUser=true] <n * > [text*=\"广告\"] <<n [vid=\"web_frame\"]",
+                            matches: "@[text=\"×\"][visibleToUser=true] <n * > [visibleToUser=true][text*=\"广告\" || text=\"查看详情\"] <<n [vid=\"web_frame\" || vid=\"view_content\"]",
                             snapshotUrls: [
                                 "https://i.gkd.li/i/14220104",
                                 "https://i.gkd.li/i/14421277",
+                                "https://i.gkd.li/i/15285359",
                             ],
-                        },
-                        {
-                            key: 3,
-                            activityIds: "com.zhihu.android.app.ui.activity.MainActivity",
-                            matches: "@[vid=\"menu\"][visibleToUser=true] < * - * > [text^=\"广告\"]",
-                            snapshotUrls: "https://i.gkd.li/i/14296163",
                         },
                         {
                             key: 4,
@@ -5633,7 +5648,7 @@
                                 "com.zhihu.android.mixshortcontainer.MixShortContainerActivity",
                                 "com.zhihu.android.mix.activity.ContentMixProfileActivity",
                             ],
-                            matches: "@Image[clickable=true][visibleToUser=true] <2 * > [text$=\"广告\"] <<n [vid=\"view_content\"]",
+                            matches: "@Image[clickable=true][visibleToUser=true] <2 * > [visibleToUser=true][text$=\"广告\"] <<n [vid=\"view_content\"]",
                             snapshotUrls: [
                                 "https://i.gkd.li/i/14391614",
                                 "https://i.gkd.li/i/15282584",
@@ -5642,24 +5657,13 @@
                         {
                             key: 6,
                             activityIds: "com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity",
-                            matches: "@ImageView[clickable=true][visibleToUser=true] <n * > [text*=\"知乎\"][index=1]",
+                            matches: "@ImageView[clickable=true][visibleToUser=true]  -(1,2) TextView[childCount=0][id=null][text=null][desc=null] <n * > [text*=\"知乎\" || text=\"创作者小助手\"][childCount=0][id=null][desc=null]",
                             snapshotUrls: [
                                 "https://i.gkd.li/i/14235024",
                                 "https://i.gkd.li/i/14944631",
                                 "https://i.gkd.li/i/14232195",
+                                "https://i.gkd.li/i/14232195",
                             ],
-                        },
-                        {
-                            key: 7,
-                            activityIds: "com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity",
-                            matches: "@ImageView[clickable=true][visibleToUser=true] <n * > [text=\"创作者小助手\"][index=1]",
-                            snapshotUrls: "https://i.gkd.li/i/14232195",
-                        },
-                        {
-                            key: 8,
-                            activityIds: "com.zhihu.android.mix.activity.ContentMixProfileActivity",
-                            matches: "@[text=\"×\"][visibleToUser=true] <n * > [text=\"查看详情\"] <<n [vid=\"view_content\"]",
-                            snapshotUrls: "https://i.gkd.li/i/15285359",
                         },
                     ],
                     enable: false,
@@ -5693,6 +5697,13 @@
                             matches: "[vid=\"close_img\"]",
                             snapshotUrls: "https://i.gkd.li/i/14970008",
                         },
+                        {
+                            key: 3,
+                            activityIds: "com.zhihu.android.mix.activity.ContentMixProfileActivity",
+                            matches: "View[childCount=3] > @View[clickable=true][childCount=1][text=\"\"] > Image[childCount=0][text=\"\"] <<n [vid=\"view_content\"]",
+                            exampleUrls: "https://e.gkd.li/6b9afb50-47a3-4426-a157-9b170b57c616",
+                            snapshotUrls: "https://i.gkd.li/i/16422471",
+                        },
                     ],
                     enable: false,
                 },
@@ -5712,14 +5723,18 @@
                 },
                 {
                     key: 101,
-                    name: "功能类-问题回答-自动展开",
-                    activityIds: "com.zhihu.android.mixshortcontainer.MixShortContainerActivity",
+                    name: "功能类-自动展开回答",
+                    desc: "自动点击展开",
                     rules: [
-                        "ImageView[id=\"com.zhihu.android:id/iv_expand\"] - TextView[id=\"com.zhihu.android:id/tv_expand\"][text=\"展开\"][visibleToUser=true]",
-                    ],
-                    snapshotUrls: [
-                        "https://i.gkd.li/i/12647688",
-                        "https://i.gkd.li/i/12707687",
+                        {
+                            activityIds: "com.zhihu.android.mixshortcontainer.MixShortContainerActivity",
+                            matches: "ImageView[id=\"com.zhihu.android:id/iv_expand\"] - TextView[id=\"com.zhihu.android:id/tv_expand\"][text=\"展开\"][visibleToUser=true]",
+                            exampleUrls: "https://m.gkd.li/57941037/6f6e5fd0-98a8-4a92-be02-7f34e3c5b8bd",
+                            snapshotUrls: [
+                                "https://i.gkd.li/i/12647688",
+                                "https://i.gkd.li/i/12707687",
+                            ],
+                        },
                     ],
                     enable: false,
                 },
